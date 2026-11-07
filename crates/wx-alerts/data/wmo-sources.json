@@ -1,0 +1,4289 @@
+{
+	"sources": [
+		{
+			"source": {
+				"sourceId": "af-andma-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Afghanistan: National Disaster Management Authority",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/af-andma-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.4.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=202",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/af-andma-en/rss.xml",
+				"isRegistered": false,
+				"memID": "115",
+				"metLink": "http://www.andma.gov.af",
+				"region": "2",
+				"latlng": "33.939110,67.709953",
+				"countryName": "Afghanistan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "af",
+				"authorityAbbrev": "andma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "al-igewe-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Albania: Institute of GeoSciences, Energy, Water and Environment",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/al-igewe-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.8.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=1",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/al-igewe-en/rss.xml",
+				"isRegistered": true,
+				"memID": "102",
+				"metLink": "",
+				"region": "6",
+				"latlng": "41.153332,20.168331",
+				"countryName": "Albania",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "al",
+				"authorityAbbrev": "igewe"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "dz-onm-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Algeria: Office National de la Météorologie",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/dz-onm-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.12.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=2",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://ametvigilance.meteo.dz/rss/rss_meteo_dz.xml",
+				"isRegistered": true,
+				"memID": "122",
+				"metLink": "https://www.meteo.dz/",
+				"region": "1",
+				"latlng": "28.033886,1.659626",
+				"countryName": "Algeria",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "dz",
+				"authorityAbbrev": "onm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ad-meteo-xx",
+				"byLanguage": [
+					{
+						"code": "ca",
+						"name": "Andorra: Servei Meteorològic d'Andorra",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ad-meteo-ca.png"
+					},
+					{
+						"code": "es",
+						"name": "Andorra: Servei Meteorològic d'Andorra",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ad-meteo-es.png"
+					},
+					{
+						"code": "fr",
+						"name": "Andorra: Servei Meteorològic d'Andorra",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ad-meteo-fr.png"
+					},
+					{
+						"code": "en",
+						"name": "Andorra: Servei Meteorològic d'Andorra",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ad-meteo-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.20.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=310",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-andorra",
+				"isRegistered": true,
+				"memID": "205",
+				"metLink": "https://www.meteo.ad",
+				"region": "6",
+				"latlng": "42.506317,1.521835",
+				"countryName": "Andorra",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ad",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ao-inamet-pt",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Angola: National Institute of Hydrometeorology and Geophysics",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ao-inamet-en.png"
+					},
+					{
+						"code": "pt",
+						"name": "Angola: Instituto Nacional de Hidrometeorología e Geofísica",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ao-inamet-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.24.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=203",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ao-inamet-en/rss.xml,https://cap-sources.s3.amazonaws.com/ao-inamet-pt/rss.xml",
+				"isRegistered": false,
+				"memID": "129",
+				"metLink": "",
+				"region": "1",
+				"latlng": "-11.202692,17.873887",
+				"countryName": "Angola",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ao",
+				"authorityAbbrev": "inamet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ai-dma-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Anguilla: Disaster Management Anguilla",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ai-dma-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.660.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=253",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://axa-primary.capews.com/capews/public/atom?type=cap",
+				"isRegistered": true,
+				"memID": "000",
+				"metLink": "",
+				"region": "4",
+				"latlng": "18.379288,-63.178602",
+				"countryName": "Anguilla",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ai",
+				"authorityAbbrev": "dma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ag-ms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Antigua and Barbuda: Antigua and Barbuda Meteorological Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ag-ms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.28.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=311",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://atg-primary.capews.com/capews/public/atom?type=cap",
+				"isRegistered": true,
+				"memID": "041",
+				"metLink": "http://www.antiguamet.com/",
+				"region": "4",
+				"latlng": "17.060816,-61.796428",
+				"countryName": "Antigua and Barbuda",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ag",
+				"authorityAbbrev": "ms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ar-smn-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Argentina: Servicio Meteorologico Nacional",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ar-smn-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.32.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=4",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://ssl.smn.gob.ar/CAP/AR.php",
+				"isRegistered": true,
+				"memID": "050",
+				"metLink": "http://www.smn.gov.ar/",
+				"region": "3",
+				"latlng": "-37.103384,-64.599609",
+				"countryName": "Argentina",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ar",
+				"authorityAbbrev": "smn"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "au-bom-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Australia: Bureau of Meteorology",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/au-bom-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.36.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=6",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://severeweather.wmo.int/v2/cap-alerts/au-bom-en/rss.xml",
+				"isRegistered": true,
+				"memID": "185",
+				"metLink": "https://www.bom.gov.au/",
+				"region": "5",
+				"latlng": "-25.274398,133.775136",
+				"countryName": "Australia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "au",
+				"authorityAbbrev": "bom"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "at-zamg-en",
+				"byLanguage": [
+					{
+						"code": "de",
+						"name": "Austria: Zentralanstalt für Meteorologie und Geodynamik",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/at-zamg-de.png"
+					},
+					{
+						"code": "en",
+						"name": "Austria: Central Institute for Meteorology and Geodynamics",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/at-zamg-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.40.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=9",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-austria",
+				"isRegistered": true,
+				"memID": "006",
+				"metLink": "http://www.zamg.ac.at",
+				"region": "6",
+				"latlng": "47.516231,14.550072",
+				"countryName": "Austria",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "at",
+				"authorityAbbrev": "zamg"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bh-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Bahrain: Meteorological Directorate",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bh-meteo-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Bahrain: مديرية الأرصاد الجوية",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bh-meteo-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.48.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=11",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/bh-meteo-en/rss.xml,https://cap-sources.s3.amazonaws.com/bh-meteo-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "051",
+				"metLink": "https://www.bahrainweather.gov.bh/",
+				"region": "2",
+				"latlng": "26.066700,50.557700",
+				"countryName": "Bahrain",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bh",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bb-dem-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Barbados: Department of Emergency Management",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/bb-dem-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Barbados: Département de gestion des urgences",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/bb-dem-en.png"
+					},
+					{
+						"code": "es",
+						"name": "Barbados: Departamento de Manejo de Emergencias",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/bb-dem-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.52.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=14",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://brb-primary.capews.com/capews/public/atom?type=cap",
+				"isRegistered": true,
+				"memID": "052",
+				"metLink": "http://www.barbadosweather.org",
+				"region": "4",
+				"latlng": "13.169629,-59.564438",
+				"countryName": "Barbados",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bb",
+				"authorityAbbrev": "dem"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "by-belhydromet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Belarus: State institution 'Republican center for hydrometeorology, control of radioactive contamination and environmental monitoring'",
+						"logo": ""
+					},
+					{
+						"code": "ru",
+						"name": "Belarus: ",
+						"logo": ""
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.112.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=15",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoalert.meteoinfo.ru/belarus/cap-feed/en/atom.xml,https://meteoalert.meteoinfo.ru/belarus/cap-feed/ru/atom.xml",
+				"isRegistered": true,
+				"memID": "106",
+				"metLink": "https://belgidromet.by/",
+				"region": "6",
+				"latlng": "53.709807,27.953389",
+				"countryName": "Belarus",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "by",
+				"authorityAbbrev": "belhydromet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "be-irm-en",
+				"byLanguage": [
+					{
+						"code": "nl",
+						"name": "Belgium: Royal Meteorological Institute",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/be-irm-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Belgium: Royal Meteorological Institute",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/be-irm-en.png"
+					},
+					{
+						"code": "en",
+						"name": "Belgium: Royal Meteorological Institute",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/be-irm-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.56.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=17",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-belgium",
+				"isRegistered": false,
+				"memID": "053",
+				"metLink": "http://www.meteo.be/",
+				"region": "6",
+				"latlng": "50.503887,4.469936",
+				"countryName": "Belgium",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "be",
+				"authorityAbbrev": "irm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bz-nms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Belize: National Meteorology Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bz-nms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.84.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=18",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/bz-nms-en/rss.xml",
+				"isRegistered": true,
+				"memID": "038",
+				"metLink": "https://www.nms.gov.bz/",
+				"region": "4",
+				"latlng": "17.189877,-88.497650",
+				"countryName": "Belize",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bz",
+				"authorityAbbrev": "nms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bj-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Benin: Agence Nationale de la Meteorologie (METEO-BENIN)",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bj-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.204.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=206",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.meteobenin.bj/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "170",
+				"metLink": "https://www.meteobenin.bj/",
+				"region": "1",
+				"latlng": "9.307690,2.315834",
+				"countryName": "Benin",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bj",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ba-fhmzbih-bs",
+				"byLanguage": [
+					{
+						"code": "bs",
+						"name": "Bosnia and Herzegovina: Federalni hidrometeorološki zavod BiH",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ba-fhmzbih-bs.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.70.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=20",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-bosnia-herzegovina",
+				"isRegistered": true,
+				"memID": "005",
+				"metLink": "http://www.fhmzbih.gov.ba/",
+				"region": "6",
+				"latlng": "47.516231,14.550072",
+				"countryName": "Bosnia and Herzegovina",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ba",
+				"authorityAbbrev": "fhmzbih"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bw-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Botswana: Department of Meteorological Services",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bw-met-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.72.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=21",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/bw-met-en/rss.xml",
+				"isRegistered": true,
+				"memID": "142",
+				"metLink": "",
+				"region": "1",
+				"latlng": "-22.328474,24.684866",
+				"countryName": "Botswana",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bw",
+				"authorityAbbrev": "dms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "br-inmet-pt",
+				"byLanguage": [
+					{
+						"code": "pt",
+						"name": "Brazil: Instituto Nacional de Meteorologia - INMET",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/br-inmet-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.76.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=22",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+				"isRegistered": true,
+				"memID": "136",
+				"metLink": "http://www.inmet.gov.br/",
+				"region": "3",
+				"latlng": "-14.235004,-51.92528",
+				"countryName": "Brazil",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "br",
+				"authorityAbbrev": "inmet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "uk-bviddm-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "British Virgin Islands: Department of Disaster Management",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/uk-bviddm-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.92.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=315",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/uk-bviddm-en/rss.xml",
+				"isRegistered": true,
+				"memID": "024",
+				"metLink": "",
+				"region": "4",
+				"latlng": "18.5,-64.55",
+				"countryName": "British Virgin Islands",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gb",
+				"authorityAbbrev": "bviddm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bg-meteo-bg",
+				"byLanguage": [
+					{
+						"code": "bg",
+						"name": "Bulgaria: НАЦИОНАЛЕН ИНСТИТУТ ПО МЕТЕОРОЛОГИЯ И ХИДРОЛОГИЯ - ФИЛИАЛ ПЛОВДИВ",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/bg-meteo-bg.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.100.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=233",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-bulgaria",
+				"isRegistered": false,
+				"memID": "103",
+				"metLink": "http://www.meteo.bg/en",
+				"region": "6",
+				"latlng": "42.733883,25.48583",
+				"countryName": "Bulgaria",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bg",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bf-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Burkina Faso: Agence Nationale de la Météorologie du Burkina Faso",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bf-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.854.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=23",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.meteoburkina.bf/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "143",
+				"metLink": "https://www.meteoburkina.bf/",
+				"region": "1",
+				"latlng": "12.238333,-1.561593",
+				"countryName": "Burkina Faso",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bf",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "bi-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Burundi: Institut Géographique du Burundi (IGEBU)",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/bi-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.108.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=236",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.igebu.bi/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "144",
+				"metLink": "https://www.igebu.bi",
+				"region": "1",
+				"latlng": "-3.373056,29.918886",
+				"countryName": "Burundi",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "bi",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cm-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Cameroon: Directorate of National Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cm-meteo-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Cameroon: Direction de la Météorologie Nationale",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cm-meteo-fr.png"
+					},
+					{
+						"code": "ha",
+						"name": "Cameroon: Hukumar Kula da Yanayin Kasa ta Kasa",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cm-meteo-ha.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.120.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=186",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/cm-meteo-en/rss.xml,https://cap-sources.s3.amazonaws.com/cm-meteo-fr/rss.xml,https://cap-sources.s3.amazonaws.com/cm-meteo-ha/rss.xml",
+				"isRegistered": true,
+				"memID": "055",
+				"metLink": "",
+				"region": "1",
+				"latlng": "7.369722,12.354722",
+				"countryName": "Cameroon",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cm",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ca-msc-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Canada: Meteorological Service of Canada",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ca-msc-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Canada: Service météorologique du Canada",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ca-msc-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.124.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=27",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://rss.naad-adna.pelmorex.com/",
+				"isRegistered": true,
+				"memID": "056",
+				"metLink": "https://weather.gc.ca/canada_e.html",
+				"region": "4",
+				"latlng": "59.606654,-108.105469",
+				"countryName": "Canada",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ca",
+				"authorityAbbrev": "msc"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ca-aema-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Canada: Alberta Emergency Management Agency (Government of Alberta, Ministry of Municipal Affairs)",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ca-aema-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Canada: Agence de gestion des urgences de l'Alberta (gouvernement de l'Alberta, ministère des Affaires municipales)",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ca-aema-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.124.2",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=277",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://emergencyalert.alberta.ca/aeapublic/feed.atom",
+				"isRegistered": true,
+				"memID": "056",
+				"metLink": "https://weather.gc.ca/canada_e.html",
+				"region": "4",
+				"latlng": "59.606654,-108.105469",
+				"countryName": "Canada",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ca",
+				"authorityAbbrev": "aema"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cf-dmn-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Central African Republic: Direction de la Météorologie Nationale",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cf-dmn-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.140.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=237",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/cf-dmn-fr/rss.xml",
+				"isRegistered": true,
+				"memID": "146",
+				"metLink": "",
+				"region": "1",
+				"latlng": "6.611111,20.939444",
+				"countryName": "Central African Republic",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cf",
+				"authorityAbbrev": "dmn"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "td-anam-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Chad: Agence Nationale de la Météorologie",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/td-anam-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.148.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=211",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.meteotchad.org/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "088",
+				"metLink": "https://www.meteotchad.org",
+				"region": "1",
+				"latlng": "15.454166,18.732207",
+				"countryName": "Chad",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "td",
+				"authorityAbbrev": "anam"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cl-meteo-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Chile: Dirección Meteorológica de Chile",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cl-meteo-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.152.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=28",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://archivos.meteochile.gob.cl/portaldmc/rss/rss.php",
+				"isRegistered": true,
+				"memID": "028",
+				"metLink": "https://www.meteochile.gob.cl/",
+				"region": "3",
+				"latlng": "-35.675147,-71.542969",
+				"countryName": "Chile",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cl",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cn-cma-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "China: China Meteorological Administration",
+						"logo": ""
+					},
+					{
+						"code": "zh",
+						"name": "China: China Meteorological Administration",
+						"logo": ""
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.156.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=30",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://severeweather.wmo.int/v2/cap-alerts/cn-cma-xx/rss.xml",
+				"isRegistered": true,
+				"memID": "001",
+				"metLink": "http://www.cma.gov.cn/",
+				"region": "2",
+				"latlng": "35.86166,104.195397",
+				"countryName": "China",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cn",
+				"authorityAbbrev": "cma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "co-ideam-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Colombia: Instituto de Hidrología, Meteorología y Estudios Ambientales",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/co-ideam-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.170.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=32",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://alertascap.ideam.gov.co/ospa/xml",
+				"isRegistered": true,
+				"memID": "057",
+				"metLink": "https://www.ideam.gov.co",
+				"region": "3",
+				"latlng": "4.570868,-74.297333",
+				"countryName": "Colombia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "co",
+				"authorityAbbrev": "ideam"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "km-anacm-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Comoros: Direction de la Météorologie Nationale",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/km-anacm-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.174.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=212",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteocomores.km/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "058",
+				"metLink": "https://meteocomores.km/",
+				"region": "1",
+				"latlng": "-11.645500,43.333300",
+				"countryName": "Comoros",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "km",
+				"authorityAbbrev": "anacm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cg-anac-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Congo: Direction de la Météorologie Nationale",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cg-anac-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.178.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=33",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://dirmet.cg/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "147",
+				"metLink": "https://dirmet.cg",
+				"region": "1",
+				"latlng": "-0.228021,15.827659",
+				"countryName": "Congo",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cg",
+				"authorityAbbrev": "anac"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cr-imn-es",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Costa Rica: National Meteorological Institute",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cr-imn-en.png"
+					},
+					{
+						"code": "es",
+						"name": "Costa Rica: Instituto Meteorologico Nacional",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cr-imn-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.188.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=36",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/cr-imn-en/rss.xml,https://cap-sources.s3.amazonaws.com/cr-imn-es/rss.xml",
+				"isRegistered": true,
+				"memID": "171",
+				"metLink": "https://www.imn.ac.cr",
+				"region": "4",
+				"latlng": "9.748917,-83.753428",
+				"countryName": "Costa Rica",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cr",
+				"authorityAbbrev": "imn"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ci-sodexam-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Côte d'Ivoire: Société d'Exploitation et de Developpement Aéroportuaire, Aéronautique et Météorologique",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ci-sodexam-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.384.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=38",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ci-sodexam-fr/rss.xml",
+				"isRegistered": true,
+				"memID": "149",
+				"metLink": "",
+				"region": "1",
+				"latlng": "7.539989,-5.547080",
+				"countryName": "Côte d'Ivoire",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ci",
+				"authorityAbbrev": "sodexam"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "hr-meteo-hr",
+				"byLanguage": [
+					{
+						"code": "hr",
+						"name": "Croatia: Državni hidrometeorološki zavod (DHMZ)",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/hr-meteo-hr.png"
+					},
+					{
+						"code": "en",
+						"name": "Croatia: Državni hidrometeorološki zavod (DHMZ)",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/hr-meteo-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.191.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=39",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-croatia",
+				"isRegistered": true,
+				"memID": "019",
+				"metLink": "http://meteo.hr/index_en.php",
+				"region": "6",
+				"latlng": "45.1,15.2",
+				"countryName": "Croatia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "hr",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cw-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Curaçao and Sint Maarten: Meteorological Department Curaçao",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cw-meteo-en.png"
+					},
+					{
+						"code": "nl",
+						"name": "Curaçao and Sint Maarten: Meteorologische Dienst Curacao",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cw-meteo-nl.png"
+					},
+					{
+						"code": "es",
+						"name": "Curaçao and Sint Maarten: Departamento Meteorológico de Curazao",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cw-meteo-es.png"
+					},
+					{
+						"code": "pap",
+						"name": "Curaçao: Servisio Meteorologiko Korsou",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cw-meteo-pap.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.530.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=261",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.meteo.cw/rss/CAP_en.xml,https://www.meteo.cw/rss/CAP_nl.xml,https://cap-sources.s3.amazonaws.com/cw-meteo-es/rss.xml,https://www.meteo.cw/rss/CAP_pap.xml",
+				"isRegistered": true,
+				"memID": "181",
+				"metLink": "",
+				"region": "4",
+				"latlng": "12.111717,-68.936028",
+				"countryName": "Curaçao and Sint Maarten",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cw",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cy-dom-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Cyprus: Meteorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/cy-dom-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.196.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=40",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-cyprus",
+				"isRegistered": true,
+				"memID": "104",
+				"metLink": "http://www.moa.gov.cy/ms",
+				"region": "6",
+				"latlng": "35.126413,33.429859",
+				"countryName": "Cyprus",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cy",
+				"authorityAbbrev": "dom"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cz-chmi-cs",
+				"byLanguage": [
+					{
+						"code": "cs",
+						"name": "Czechia: Český hydrometeorologický ústav",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/cz-chmi-cs.png"
+					},
+					{
+						"code": "en",
+						"name": "Czechia: Czech Hydrometeorological Institute",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/cz-chmi-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.203.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=41",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-czechia",
+				"isRegistered": true,
+				"memID": "172",
+				"metLink": "http://www.chmi.cz/",
+				"region": "6",
+				"latlng": "49.817492,15.472962",
+				"countryName": "Czechia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cz",
+				"authorityAbbrev": "chmi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "cd-mettelsat-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Democratic Republic of the Congo: Agence Nationale de la Météorologie et de Télédétection par Satellite",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/cd-mettelsat-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.180.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=262",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteordcongo.cd/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "150",
+				"metLink": "https://meteordcongo.cd",
+				"region": "1",
+				"latlng": "-4.038333,21.758664",
+				"countryName": "Democratic Republic of the Congo",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "cd",
+				"authorityAbbrev": "mettelsat"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "dk-dmi-dk",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Denmark: Danmarks Meteorologiske Instituts",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/dk-dmi-dk.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.208.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=42",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-denmark",
+				"isRegistered": true,
+				"memID": "173",
+				"metLink": "http://www.dmi.dk/eng/index/forecasts.htm",
+				"region": "6",
+				"latlng": "56.26392,9.501785",
+				"countryName": "Denmark",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "dk",
+				"authorityAbbrev": "dmi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "dj-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Djibouti: Agence Nationale de la Météorologie de Djibouti (ANM)",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/dj-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.262.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=215",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteodjibouti.dj/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "126",
+				"metLink": "https://meteodjibouti.dj/",
+				"region": "1",
+				"latlng": "11.825138,42.590275",
+				"countryName": "Djibouti",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "dj",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "do-indomet-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Dominican Republic: Instituto Dominicano de Meteorología",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/do-indomet-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.214.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=43",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/do-indomet-es/rss.xml",
+				"isRegistered": true,
+				"memID": "132",
+				"metLink": "https://onamet.gob.do/",
+				"region": "4",
+				"latlng": "18.735693,-70.162651",
+				"countryName": "Dominican Republic",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "do",
+				"authorityAbbrev": "indomet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ec-inamhi-es",
+				"byLanguage": [
+				  {
+					"code": "es",
+					"name": "Ecuador: Instituto Nacional de Meteorología e Hidrología (INAMHI)",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/ec-inamhi-es.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.218.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=44",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ec-inamhi-es/rss.xml",
+				"isRegistered": true,
+				"memID": "137",
+				"metLink": "http://www.serviciometeorologico.gob.ec/",
+				"region": "3",
+				"latlng": "-1.831239,-78.183406",
+				"countryName": "Ecuador",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ec",
+				"authorityAbbrev": "inamhi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "eg-ema-ar",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Egypt: Egyptian Meteorological Authority",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/eg-ema-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Egypt: هيئة الأرصاد الجوية المصرية",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/eg-ema-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.818.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=45",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/eg-ema-en/rss.xml,https://cap-sources.s3.amazonaws.com/eg-ema-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "59",
+				"metLink": "http://ema.gov.eg/",
+				"region": "1",
+				"latlng": "26.820553,30.802498",
+				"countryName": "Egypt",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "eg",
+				"authorityAbbrev": "ema"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ee-emhi-et",
+				"byLanguage": [
+					{
+						"code": "et",
+						"name": "Estonia: Riigi Ilmateenistus",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ee-emhi-et.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.233.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=47",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-estonia",
+				"isRegistered": false,
+				"memID": "039",
+				"metLink": "http://www.emhi.ee/?nlan=eng",
+				"region": "6",
+				"latlng": "58.594740,25.686035",
+				"countryName": "Estonia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ee",
+				"authorityAbbrev": "emhi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sz-met-en",
+				"byLanguage": [
+				  {
+					"code": "en",
+					"name": "Eswatini: Eswatini Meteorological Service",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/sz-met-en.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.748.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=230",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/sz-met-en/rss.xml",
+				"isRegistered": true,
+				"memID": "166",
+				"metLink": "http://www.swazimet.gov.sz/",
+				"region": "1",
+				"latlng": "-26.522503,31.465866",
+				"countryName": "Eswatini",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sz",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "et-emi-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Ethiopia: Ethiopian Meteorological Institute (EMI)",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/et-emi-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.231.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=48",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.ethiomet.gov.et/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "060",
+				"metLink": "http://www.ethiomet.gov.et/",
+				"region": "1",
+				"latlng": "9.145000,40.489673",
+				"countryName": "Ethiopia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "et",
+				"authorityAbbrev": "emi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "fi-fmi-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Finland: Finnish Meteorological Institute",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/fi-fmi-en.png"
+					},
+					{
+						"code": "fi",
+						"name": "Finland: Ilmatieteen laitos",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/fi-fmi-fi.png"
+					},
+					{
+						"code": "sv",
+						"name": "Finland: Meteorologiska institutet",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/fi-fmi-sv.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.246.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=51",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://alerts.fmi.fi/cap/feed/rss_en-GB.rss,https://alerts.fmi.fi/cap/feed/rss_fi-FI.rss,https://alerts.fmi.fi/cap/feed/rss_sv-FI.rss",
+				"isRegistered": true,
+				"memID": "061",
+				"metLink": "http://www.fmi.fi/en/index.html",
+				"region": "6",
+				"latlng": "64.260106,27.290039",
+				"countryName": "Finland",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "fi",
+				"authorityAbbrev": "fmi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "fr-meteofrance-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "France: Meteo-France",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/fr-meteofrance-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "France: Météo-France",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/fr-meteofrance-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.250.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=53",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-france",
+				"isRegistered": true,
+				"memID": "062",
+				"metLink": "http://www.meteo.fr/meteonet_en/index.htm",
+				"region": "6",
+				"latlng": "46.227638,2.213749",
+				"countryName": "France",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "fr",
+				"authorityAbbrev": "meteofrance"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ga-dgm-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Gabon: Direction Generale de la Météorologie",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ga-dgm-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.266.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=56",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ga-dgm-fr/rss.xml",
+				"isRegistered": true,
+				"memID": "128",
+				"metLink": "",
+				"region": "1",
+				"latlng": "-0.803689,11.609444",
+				"countryName": "Gabon",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ga",
+				"authorityAbbrev": "dgm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "gm-dwr-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Gambia (The): Department of Water Resources",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/gm-dwr-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.270.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=218",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteogambia.gm/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "036",
+				"metLink": "https://meteogambia.gm",
+				"region": "1",
+				"latlng": "13.443182,-15.310139",
+				"countryName": "Gambia (The)",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gm",
+				"authorityAbbrev": "dwr"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "de-dwd-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Germany: German Meteorological Office",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/de-dwd-en.png"
+					},
+					{
+						"code": "de",
+						"name": "Germany: Deutscher Wetterdienst",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/de-dwd-de.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.276.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=58",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.dwd.de/DWD/warnungen/cap-feed/en/rss.xml,https://www.dwd.de/DWD/warnungen/cap-feed/de/rss.xml",
+				"isRegistered": true,
+				"memID": "016",
+				"metLink": "https://www.dwd.de",
+				"region": "6",
+				"latlng": "51.165691,10.451526",
+				"countryName": "Germany",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "de",
+				"authorityAbbrev": "dwd"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "gh-gmet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Ghana: Ghana Meteorological Agency",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/gh-gmet-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.288.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=318",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.meteo.gov.gh/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "151",
+				"metLink": "https://www.meteo.gov.gh/",
+				"region": "1",
+				"latlng": "7.946527,-1.023194",
+				"countryName": "Ghana",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gh",
+				"authorityAbbrev": "gmet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "gr-hnms-el",
+				"byLanguage": [
+					{
+						"code": "el",
+						"name": "Greece: ΕΜΥ-Εθνική Μετεωρολογική Υπηρεσία",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/gr-hnms-el.png"
+					},
+					{
+						"code": "en",
+						"name": "Greece: ΕΜΥ-Εθνική Μετεωρολογική Υπηρεσία",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/gr-hnms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.300.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=61",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-greece",
+				"isRegistered": false,
+				"memID": "063",
+				"metLink": "http://www.hnms.gr/",
+				"region": "6",
+				"latlng": "39.074208,21.824312",
+				"countryName": "Greece",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gr",
+				"authorityAbbrev": "hnms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "gn-dnm-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Guinea: Agence Nationale de la Météorologie",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/gn-dnm-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.324.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=219",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://anmeteo.gov.gn/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "124",
+				"metLink": "https://anmeteo.gov.gn/",
+				"region": "1",
+				"latlng": "9.945587,-9.696645",
+				"countryName": "Guinea",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gn",
+				"authorityAbbrev": "dnm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "gw-inm-pt",
+				"byLanguage": [
+					{
+						"code": "pt",
+						"name": "Guinea-Bissau: Instituto Nacional de Meteorologia da Guine-Bissau",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/gw-inm-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.624.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=63",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoguinebissau.gw/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "064",
+				"metLink": "https://meteoguinebissau.gw",
+				"region": "1",
+				"latlng": "11.803749,-15.180413",
+				"countryName": "Guinea-Bissau",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gw",
+				"authorityAbbrev": "inm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "gy-hms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Guyana: Hydrometeorological Service of Guyana",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/gy-hms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.328.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=220",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/gy-hms-en/rss.xml",
+				"isRegistered": true,
+				"memID": "065",
+				"metLink": "https://hydromet.gov.gy/",
+				"region": "3",
+				"latlng": "4.860416,-58.93018",
+				"countryName": "Guyana",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gy",
+				"authorityAbbrev": "hms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "hk-hko-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Hong Kong, China: Hong Kong Observatory",
+						"logo": ""
+					},
+					{
+						"code": "zh",
+						"name": "Hong Kong, China: Hong Kong Observatory",
+						"logo": ""
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.344.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=67",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://alerts.weather.gov.hk/V1/cap_atom.xml",
+				"isRegistered": true,
+				"memID": "002",
+				"metLink": "https://www.hko.gov.hk/en/",
+				"region": "2",
+				"latlng": "22.396428,114.109497",
+				"countryName": "Hong Kong, China",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "hk",
+				"authorityAbbrev": "hko"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "hu-met-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Hungary: Hungarian Meteorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/hu-met-en.png"
+					},
+					{
+						"code": "hu",
+						"name": "Hungary: Országos Meteorológiai Szolgálat",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/hu-met-hu.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.348.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=69",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-hungary",
+				"isRegistered": false,
+				"memID": "017",
+				"metLink": "http://www.met.hu/",
+				"region": "6",
+				"latlng": "47.162494,19.503304",
+				"countryName": "Hungary",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "hu",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "is-vedur-is",
+				"byLanguage": [
+					{
+						"code": "is",
+						"name": "Iceland: Veðurstofa Íslands",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/is-vedur-is.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.352.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=71",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://api.vedur.is/cap/v1/capbroker/active/feed/met",
+				"isRegistered": true,
+				"memID": "097",
+				"metLink": "http://www.vedur.is/english",
+				"region": "6",
+				"latlng": "64.963051,-19.020835",
+				"countryName": "Iceland",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "is",
+				"authorityAbbrev": "vedur"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "in-imd-en",
+				"byLanguage": [
+				  {
+					"code": "en",
+					"name": "India: Meteorological Department",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/in-imd-en.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.356.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=182",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/in-imd-en/rss.xml",
+				"isRegistered": true,
+				"memID": "066",
+				"metLink": "https://mausam.imd.gov.in/",
+				"region": "2",
+				"latlng": "20.593684,78.962880",
+				"countryName": "India",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "in",
+				"authorityAbbrev": "imd"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "in-ndma-xx",
+				"byLanguage": [
+				  {
+					"code": "en",
+					"name": "India: National Disaster Management Authority",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/in-ndma-en.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.356.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=nnn",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml",
+				"isRegistered": true,
+				"memID": "066",
+				"metLink": "https://ndma.gov.in/",
+				"region": "2",
+				"latlng": "20.593684,78.962880",
+				"countryName": "India",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "in",
+				"authorityAbbrev": "ndma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "id-inatews-id",
+				"byLanguage": [
+					{
+						"code": "id",
+						"name": "Indonesia: Agency for Meteorology Climatology and Geophysics of Republic Indonesia",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/id-inatews-id.png"
+					},
+					{
+						"code": "en",
+						"name": "Indonesia: Agency for Meteorology Climatology and Geophysics of Republic Indonesia",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/id-inatews-id.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.360.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=183",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.bmkg.go.id/alerts/nowcast/id,https://www.bmkg.go.id/alerts/nowcast/en",
+				"isRegistered": true,
+				"memID": "043",
+				"metLink": "https://www.bmkg.go.id/?lang=EN",
+				"region": "5",
+				"latlng": "-0.789275,113.921327",
+				"countryName": "Indonesia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "id",
+				"authorityAbbrev": "inatews"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ir-irimo-fa",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Iran (Islamic Republic of): Iran Meteorological Organization",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ir-irimo-en.png"
+					},
+					{
+						"code": "fa",
+						"name": "Iran (Islamic Republic of): سازمان هواشناسی",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ir-irimo-fa.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.364.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=72",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ir-irimo-en/rss.xml,https://cap-sources.s3.amazonaws.com/ir-irimo-fa/rss.xml",
+				"isRegistered": false,
+				"memID": "114",
+				"metLink": "http://www.irimo.ir/eng/index.php",
+				"region": "2",
+				"latlng": "38.473984,47.060551",
+				"countryName": "Iran (Islamic Republic of)",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ir",
+				"authorityAbbrev": "irimo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "iq-imos-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Iraq: Iraqi Meteorological Organization and Seismology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/iq-imos-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Iraq: هيئة الأرصاد الجوية العراقية وعلم الزلازل",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/iq-imos-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.368.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=221",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/iq-imos-en/rss.xml,https://cap-sources.s3.amazonaws.com/iq-imos-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "154",
+				"metLink": "",
+				"region": "2",
+				"latlng": "33.223191,43.679291",
+				"countryName": "Iraq",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "iq",
+				"authorityAbbrev": "imos"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ie-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Ireland: Met Eireann - Irish Meteorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ie-met-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.372.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=73",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.met.ie/warningsxml/rss.xml",
+				"isRegistered": true,
+				"memID": "067",
+				"metLink": "http://www.met.ie/",
+				"region": "6",
+				"latlng": "53.036259,-8.217773",
+				"countryName": "Ireland",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ie",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "il-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Israel: Meteorological Service",
+						"logo": ""
+					},
+					{
+						"code": "he",
+						"name": "Israel Meteorological Service",
+						"logo": ""
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.376.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=74",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-israel",
+				"isRegistered": false,
+				"memID": "013",
+				"metLink": "http://www.ims.gov.il/IMSENG/All_Tahazit/homepage.htm",
+				"region": "6",
+				"latlng": "31.046051,34.851612",
+				"countryName": "Israel",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "il",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "it-meteoam-it",
+				"byLanguage": [
+					{
+						"code": "it",
+						"name": "Italy: Centro Nazionale di Meteorologia e Climatologia Aeronautica (CNMCA)",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/it-meteoam-it.png"
+					},
+					{
+						"code": "en",
+						"name": "Italy: Centro Nazionale di Meteorologia e Climatologia Aeronautica (CNMCA)",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/it-meteoam-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.380.3",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=287",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-italy",
+				"isRegistered": true,
+				"memID": "176",
+				"metLink": "http://www.meteoam.it",
+				"region": "6",
+				"latlng": "42.306769,12.810059",
+				"countryName": "Italy",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "it",
+				"authorityAbbrev": "meteoam"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "jm-jms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Jamaica: Meteorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/jm-jms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.548.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=76",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://alert.metservice.gov.jm/capfeed.php",
+				"isRegistered": true,
+				"memID": "026",
+				"metLink": "http://metservice.gov.jm/",
+				"region": "4",
+				"latlng": "18.109581,-77.297508",
+				"countryName": "Jamaica",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "jm",
+				"authorityAbbrev": "jms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "jo-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Jordan: Jordanian Meteorological Department",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/jo-meteo-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Jordan: قسم الأرصاد الجوية",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/jo-meteo-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.400.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=78",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/jo-meteo-en/rss.xml,https://cap-sources.s3.amazonaws.com/jo-meteo-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "069",
+				"metLink": "http://www.jometeo.gov.jo/",
+				"region": "6",
+				"latlng": "30.585164,36.238414",
+				"countryName": "Jordan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "jo",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "kz-kazhydromet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Kazakhstan: Kazhydromet",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/kz-kazhydromet-en.png"
+					},
+					{
+						"code": "ru",
+						"name": "Kazakhstan: KКазгидромет",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/kz-kazhydromet-ru.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.398.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=79",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/en/atom.xml,https://meteoalert.meteoinfo.ru/kazakhstan/cap-feed/ru/atom.xml",
+				"isRegistered": true,
+				"memID": "070",
+				"metLink": "https://www.kazhydromet.kz/",
+				"region": "2",
+				"latlng": "48.019573,66.923684",
+				"countryName": "Kazakhstan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "kz",
+				"authorityAbbrev": "kazhydromet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ke-kmd-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Kenya: Kenya Meteorological Department",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ke-kmd-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.404.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=80",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteo.go.ke/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "071",
+				"metLink": "https://meteo.go.ke/",
+				"region": "1",
+				"latlng": "-0.023559,37.906193",
+				"countryName": "Kenya",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ke",
+				"authorityAbbrev": "kmd"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "kw-dom-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Kuwait: Meteorological Department",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/kw-dom-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.414.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=222",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.met.gov.kw/rss_eng/kuwait_cap.xml",
+				"isRegistered": true,
+				"memID": "113",
+				"metLink": "http://www.met.gov.kw/",
+				"region": "2",
+				"latlng": "29.31166,47.481766",
+				"countryName": "Kuwait",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "kw",
+				"authorityAbbrev": "dom"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "kg-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Kyrgyzstan: Kyrgyzhydromet",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/kg-meteo-en.png"
+					},
+					{
+						"code": "ru",
+						"name": "Kyrgyzstan: Кыргызгидромет",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/kg-meteo-ru.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.417.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=83",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoalert.meteoinfo.ru/kyrgyzstan/cap-feed/en/atom.xml,https://meteoalert.meteoinfo.ru/kyrgyzstan/cap-feed/ru/atom.xml",
+				"isRegistered": true,
+				"memID": "177",
+				"metLink": "https://www.meteo.kg/",
+				"region": "2",
+				"latlng": "41.204380,74.766098",
+				"countryName": "Kyrgyzstan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "kg",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "lv-lvgmc-lv",
+				"byLanguage": [
+					{
+						"code": "lv",
+						"name": "Latvia: Latvijas Vides, ģeoloģijas un meteoroloģijas centrs",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/lv-lvgmc-lv.png"
+					},
+					{
+						"code": "en",
+						"name": "Latvia: Latvijas Vides, ģeoloģijas un meteoroloģijas centrs",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/lv-lvgmc-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.428.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=85",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-latvia",
+				"isRegistered": false,
+				"memID": "044",
+				"metLink": "http://www.meteo.lv/en",
+				"region": "6",
+				"latlng": "56.879635,24.603189",
+				"countryName": "Latvia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "lv",
+				"authorityAbbrev": "lvgmc"
+			}
+		},
+		{
+		  "source": {
+			"sourceId": "ls-lms-st",
+			"byLanguage": [
+				{
+					"code": "en",
+					"name": "Lesotho: Lesotho Meteorological Services",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/ls-lms-en.png"
+				},
+				{
+					"code": "st",
+					"name": "Lesotho: Litšebeletso tsa Boemo ba Leholimo tsa Lesotho",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/ls-lms-st.png"
+				}
+			],
+			"guid": "urn:oid:2.49.0.0.426.0",
+			"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=223",
+			"sourceIsOfficial": true,
+			"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ls-lms-en/rss.xml,https://cap-sources.s3.amazonaws.com/ls-lms-st/rss.xml",
+			"isRegistered": true,
+			"memID": "155",
+			"metLink": "",
+			"region": "1",
+			"latlng": "-29.609988,28.233608",
+			"countryName": "Lesotho",
+			"capAlertFeedStatus": "operating",
+			"authorityCountry": "ls",
+			"authorityAbbrev": "lms"
+		  }
+		},
+		{
+			"source": {
+				"sourceId": "lr-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Liberia: Liberia Meteorological Service (LMS), Ministry of Transport",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/lr-meteo-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.430.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=238",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoliberia.com/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "156", 
+				"metLink": "https://meteoliberia.com/",
+				"region": "1", 
+				"latlng": "6.428055,-9.429499",
+				"countryName": "Liberia",
+				"capAlertFeedStatus": "operating", 
+				"authorityCountry": "lr",
+				"authorityAbbrev": "meteo" 
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ly-nmc-ar",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Libya (State of): National Meteorological Centre",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ly-nmc-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Libya (State of): هيئة السلامة الوطنية",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ly-nmc-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.434.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=86",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ly-nmc-en/rss.xml,https://cap-sources.s3.amazonaws.com/ly-nmc-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "157",
+				"metLink": "https://www.lnmc.ly/",
+				"region": "1",
+				"latlng": "26.335100,17.228331",
+				"countryName": "Libya (State of)",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ly",
+				"authorityAbbrev": "nmc"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "lt-lhms-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Lithuania: Lithuanian Hydrometeorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/lt-lhms-en.png"
+					},
+					{
+						"code": "lt",
+						"name": "Lithuania: Lietuvos hidrometeorologijos tarnyba",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/lt-lhms-lt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.440.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=88",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-lithuania",
+				"isRegistered": false,
+				"memID": "105",
+				"metLink": "http://www.meteo.lt/",
+				"region": "6",
+				"latlng": "55.369728,23.639575",
+				"countryName": "Lithuania",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "lt",
+				"authorityAbbrev": "lhms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "lu-ana-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Luxembourg: Administration de l'Aéroport de Luxembourg",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/lu-ana-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.442.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=89",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-luxembourg",
+				"isRegistered": false,
+				"memID": "098",
+				"metLink": "http://www.meteolux.lu/",
+				"region": "6",
+				"latlng": "49.815273,6.129583",
+				"countryName": "Luxembourg",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "lu",
+				"authorityAbbrev": "ana-meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mo-smg-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Macao, China: Meteorological and Geophysical Bureau",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mo-smg-en.png"
+					},
+					{
+						"code": "zh",
+						"name": "Macao, China: 地球物理暨氣象局",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mo-smg-zh.png"
+					},
+					{
+						"code": "pt",
+						"name": "Macao, China: Direção dos Serviços Meteorológicos e Geofísicos",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mo-smg-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.446.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=246",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://rss.smg.gov.mo/cap_rss.xml",
+				"isRegistered": false,
+				"memID": "072",
+				"metLink": "https://www.smg.gov.mo/en",
+				"region": "2",
+				"latlng": "22.201874,113.544202",
+				"countryName": "Macao, China",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mo",
+				"authorityAbbrev": "smg"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mg-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Madagascar: Operational Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mg-meteo-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Madagascar: Météorologie opérationnelle",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mg-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.450.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=92",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/mg-meteo-en/rss.xml,https://cap-sources.s3.amazonaws.com/mg-meteo-fr/rss.xml",
+				"isRegistered": true,
+				"memID": "004",
+				"metLink": "http://www.meteomadagascar.mg/",
+				"region": "1",
+				"latlng": "-18.766947,46.869107",
+				"countryName": "Madagascar",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mg",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mw-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Malawi: Department of Climate Change and Meteorological Services",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mw-met-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.454.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=93", 
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.metmalawi.gov.mw/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "073", 
+				"metLink": "https://www.metmalawi.gov.mw/", 
+				"region": "1", 
+				"latlng": "-13.254308,34.301525", 
+				"countryName": "Malawi",
+				"capAlertFeedStatus": "operating", 
+				"authorityCountry": "mw",
+				"authorityAbbrev": "met" 
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mv-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Maldives: Maldives Meteorological Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mv-met-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.462.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=97",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap.meteorology.gov.mv/rss/alerts/",
+				"isRegistered": true,
+				"memID": "118",
+				"metLink": "https://www.meteorology.gov.mv/",
+				"region": "2",
+				"latlng": "1.977247,73.536103",
+				"countryName": "Maldives",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mv",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ml-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Mali: Agence Nationale de la Météorologie du Mali (MALI-METEO)",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ml-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.466.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=98",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.malimeteo.ml/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "034",
+				"metLink": "https://www.malimeteo.ml/",
+				"region": "1",
+				"latlng": "17.570692,-3.996166",
+				"countryName": "Mali",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ml",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mt-maltairport-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Malta: Meteorological Office",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/mt-maltairport-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.470.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=100",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-malta",
+				"isRegistered": true,
+				"memID": "012",
+				"metLink": "http://www.maltairport.com/weather",
+				"region": "6",
+				"latlng": "35.937496,14.375416",
+				"countryName": "Malta",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mt",
+				"authorityAbbrev": "maltairport"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mr-onm-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Mauritania: Office National de la Météorologie (ONM)",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mr-onm-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.478.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=252",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteomauritanie.mr/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "158",
+				"metLink": "https://meteomauritanie.mr",
+				"region": "1",
+				"latlng": "21.007890,-10.940835",
+				"countryName": "Mauritania",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mr",
+				"authorityAbbrev": "onm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mu-mms-en",
+				"byLanguage": [
+				  {
+					"code": "en",
+					"name": "Mauritius: Mauritius Meteorological Services",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/mu-mms-en.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.480.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=185",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/mu-mms-en/rss.xml",
+				"isRegistered": true,
+				"memID": "178",
+				"metLink": "http://metservice.intnet.mu/",
+				"region": "1",
+				"latlng": "-20.348404,57.552152",
+				"countryName": "Mauritius",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mu",
+				"authorityAbbrev": "mms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mx-smn-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Mexico: CONAGUA - Servicio Meteorologico Nacional de Mexico",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mx-smn-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.484.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=101",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://smn.conagua.gob.mx/tools/PHP/feedsmn/cap.php",
+				"isRegistered": true,
+				"memID": "179",
+				"metLink": "http://smn.cna.gob.mx",
+				"region": "4",
+				"latlng": "23.634501,-102.552784",
+				"countryName": "Mexico",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mx",
+				"authorityAbbrev": "smn"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mn-namem-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Mongolia: National Agency for Meteorology and Environmental Monitoring",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mn-namem-en.png"
+					},
+					{
+						"code": "mn",
+						"name": "Mongolia: Цаг уур, орчны шинжилгээний газар",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mn-namem-mn.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.496.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=104",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/mn-namem-en/rss.xml,https://cap-sources.s3.amazonaws.com/mn-namem-mn/rss.xml",
+				"isRegistered": false,
+				"memID": "119",
+				"metLink": "http://namem.gov.mn/",
+				"region": "2",
+				"latlng": "46.862496,103.846656",
+				"countryName": "Mongolia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mn",
+				"authorityAbbrev": "namem"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "me-meteo-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Montenegro: Institute of Hydrometeorology and Seismology of Montenegro",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/me-meteo-en.png"
+					},
+					{
+						"code": "sr",
+						"name": "Montenegro: Zavod za hidrometeorologiju i seizmologiju",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/me-meteo-sr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.499.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=240",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-montenegro",
+				"isRegistered": false,
+				"memID": "193",
+				"metLink": "http://www.meteo.co.me/",
+				"region": "6",
+				"latlng": "42.708678,19.37439",
+				"countryName": "Montenegro",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "me",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mz-inam-pt",
+				"byLanguage": [
+					{
+						"code": "pt",
+						"name": "Mozambique: Instituto Nacional de Meteorologia",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mz-inam-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.508.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=106",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/mz-inam-pt/rss.xml",
+				"isRegistered": true,
+				"memID": "033",
+				"metLink": "https://www.inam.gov.mz",
+				"region": "1",
+				"latlng": "-18.665695,35.529562",
+				"countryName": "Mozambique",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mz",
+				"authorityAbbrev": "inam"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "mm-dmh-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Myanmar: Department of Meteorology and Hydrology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mm-dmh-en.png"
+					},
+					{
+						"code": "my",
+						"name": "Myanmar: Department of Meteorology and Hydrology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/mm-dmh-my.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.104.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=108",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds-dmh.zamg.ac.at/feeds/dmh-warnings",
+				"isRegistered": false,
+				"memID": "180",
+				"metLink": "http://www.dmh.gov.mm/",
+				"region": "2",
+				"latlng": "21.913965,95.956223",
+				"countryName": "Myanmar",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mm",
+				"authorityAbbrev": "dmh"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "nl-rnmi-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Netherlands (Kingdom of the): Royal Netherlands Meteorological Institute",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/nl-rnmi-en.png"
+					},
+					{
+						"code": "nl",
+						"name": "Netherlands (Kingdom of the): Koninklijk Nederlands Meteorologisch Instituut",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/nl-rnmi-nl.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.528.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=111",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-netherlands",
+				"isRegistered": true,
+				"memID": "037",
+				"metLink": "http://www.knmi.nl",
+				"region": "6",
+				"latlng": "52.132633,5.291266",
+				"countryName": "Netherlands (Kingdom of the)",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "nl",
+				"authorityAbbrev": "rnmi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "nz-nms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "New Zealand: MetService ",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/nz-nms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.554.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=114",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://alerts.metservice.com/cap/rss",
+				"isRegistered": true,
+				"memID": "046",
+				"metLink": "http://www.metservice.co.nz",
+				"region": "5",
+				"latlng": "-42.410277,172.814941",
+				"countryName": "New Zealand",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "nz",
+				"authorityAbbrev": "nms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ne-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Niger: Direction de la Météorologie Nationale",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ne-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.562.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=118",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.niger-meteo.ne/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "074",
+				"metLink": "https://www.niger-meteo.ne/",
+				"region": "1",
+				"latlng": "17.607789,8.081666",
+				"countryName": "Niger",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ne",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ng-nimet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Nigeria: Nigerian Meteorological Agency",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ng-nimet-en.png"
+					},
+					{
+						"code": "ha",
+						"name": "Nigeria: Hukumar Kula da Yanayi ta Najeriya",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ng-nimet-ha.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.566.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=119",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ng-nimet-en/rss.xml,https://cap-sources.s3.amazonaws.com/ng-nimet-ha/rss.xml",
+				"isRegistered": true,
+				"memID": "075",
+				"metLink": "https://nimet.gov.ng/",
+				"region": "1",
+				"latlng": "9.081999,8.675277",
+				"countryName": "Nigeria",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ng",
+				"authorityAbbrev": "nimet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "nu-gov-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Niue: Alerts Niue",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/nu-gov-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.570.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=266",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/nu-gov-en/rss.xml",
+				"isRegistered": true,
+				"memID": "162",
+				"metLink": "",
+				"region": "5",
+				"latlng": "-19.054445,-169.867233",
+				"countryName": "Niue",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "nu",
+				"authorityAbbrev": "gov"
+			}
+		},		
+		{
+			"source": {
+				"sourceId": "mk-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "North Macedonia: Republic Hydrometeorological Organization",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/mk-meteo-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.807.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=91",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-republic-of-north-macedonia",
+				"isRegistered": true,
+				"memID": "090",
+				"metLink": "http://www.meteo.gov.mk/",
+				"region": "6",
+				"latlng": "41.608635,21.745275",
+				"countryName": "North Macedonia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "mk",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "no-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Norway: Norwegian Meteorological Institute",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/no-met-en.png"
+					},
+					{
+						"code": "no",
+						"name": "Norway: Norsk Meteorologisk Institutt",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/no-met-no.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.578.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=121",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://alert.met.no/feed?lang=en,https://alert.met.no/feed?lang=no",
+				"isRegistered": true,
+				"memID": "008",
+				"metLink": "https://www.met.no",
+				"region": "6",
+				"latlng": "60.472024,8.468946",
+				"countryName": "Norway",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "no",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "no-nve-xx",
+				"byLanguage": [
+					{
+						"code": "no",
+						"name": "Norway: Norges vassdrags- og energidirektorat",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/no-nve-no.png"
+					},
+					{
+						"code": "en",
+						"name": "Norway: Norwegian Water Resources and Energy Directorate",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/no-nve-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.578.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=120",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap.nve.no/",
+				"isRegistered": true,
+				"memID": "008",
+				"metLink": "https://www.nve.no/english/",
+				"region": "6",
+				"latlng": "60.472024,8.468946",
+				"countryName": "Norway",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "no",
+				"authorityAbbrev": "nve"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "om-met-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Oman: Directorate General of Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/om-met-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Oman: المديرية العامة للأرصاد الجوية",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/om-met-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.512.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=122",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/om-met-en/rss.xml,https://cap-sources.s3.amazonaws.com/om-met-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "030",
+				"metLink": "http://met.gov.om/",
+				"region": "2",
+				"latlng": "21.512583,55.923255",
+				"countryName": "Oman",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "om",
+				"authorityAbbrev": "met"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "pa-imhpa-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Panama: IMHPA - Instituto de Meteorología e Hidrología de Panama",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/pa-imhpa-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.591.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=124",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/pa-imhpa-es/rss.xml",
+				"isRegistered": true,
+				"memID": "076",
+				"metLink": "http://www.imhpa.gob.pa/es/",
+				"region": "4",
+				"latlng": "8.537981,-80.782127",
+				"countryName": "Panama",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "pa",
+				"authorityAbbrev": "imhpa"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "py-dmh-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Paraguay: Dirección de Meteorología e Hidrología",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/py-dmh-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.600.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=125",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/py-dmh-es/rss.xml",
+				"isRegistered": true,
+				"memID": "138",
+				"metLink": "https://www.meteorologia.gov.py/",
+				"region": "3",
+				"latlng": "-23.442503,-58.443832",
+				"countryName": "Paraguay",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "py",
+				"authorityAbbrev": "dmh"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ph-pagasa-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Philippines: Philippine Atmospheric Geophysical and Astronomical Services Administration",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ph-pagasa-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.608.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=127",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://publicalert.pagasa.dost.gov.ph/feeds/",
+				"isRegistered": true,
+				"memID": "021",
+				"metLink": "https://www.pagasa.dost.gov.ph/",
+				"region": "5",
+				"latlng": "12.879721,121.774017",
+				"countryName": "Philippines",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ph",
+				"authorityAbbrev": "pagasa"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "pl-imgw-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Poland: Institute of Meteorology and Water Management",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/pl-imgw-en.png"
+					},
+					{
+						"code": "pl",
+						"name": "Poland: Instytut Meteorologii i Gospodarki Wodnej",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/pl-imgw-pl.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.616.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=128",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-poland",
+				"isRegistered": false,
+				"memID": "009",
+				"metLink": "http://www.imgw.pl",
+				"region": "6",
+				"latlng": "51.919438,19.145136",
+				"countryName": "Poland",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "pl",
+				"authorityAbbrev": "imgw"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "pt-ipma-pt",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Portugal: Instituto Português do Mar e da Atmosfera, I.P.",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/pt-ipma-en.png"
+					},
+					{
+						"code": "pt",
+						"name": "Portugal: Instituto Português do Mar e da Atmosfera, I.P.",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/pt-ipma-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.620.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=129",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-portugal",
+				"isRegistered": true,
+				"memID": "003",
+				"metLink": "http://www.ipma.pt",
+				"region": "6",
+				"latlng": "39.399872,-8.224454",
+				"countryName": "Portugal",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "pt",
+				"authorityAbbrev": "ipma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "qa-caa-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Qatar: Civil Aviation Authority",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/qa-caa-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Qatar: الهيئة العامة للطيران المدني",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/qa-caa-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.634.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=130",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/qa-caa-en/rss.xml,https://cap-sources.s3.amazonaws.com/qa-caa-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "116",
+				"metLink": "http://qweather.gov.qa/",
+				"region": "2",
+				"latlng": "25.354826,51.183884",
+				"countryName": "Qatar",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "qa",
+				"authorityAbbrev": "caa"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "kr-kma-weather-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Republic of Korea: Korea Meteorological Administration, Weather Information",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/kr-kma-en.png"
+					},
+					{
+						"code": "ko",
+						"name": "Republic of Korea: 기상청, 기상정보",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/kr-kma-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.410.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=131",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.weather.go.kr/w/rss/cap/warning.do",
+				"isRegistered": true,
+				"memID": "095",
+				"metLink": "https://web.kma.go.kr/eng/index.jsp",
+				"region": "2",
+				"latlng": "35.907757,127.766922",
+				"countryName": "Republic of Korea",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "kr",
+				"authorityAbbrev": "kma-weather"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "md-shs-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Republic of Moldova: State Hydrometeorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/md-shs-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.498.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=132",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-moldova",
+				"isRegistered": false,
+				"memID": "108",
+				"metLink": "http://www.meteo.md",
+				"region": "6",
+				"latlng": "47.411631,28.369885",
+				"countryName": "Republic of Moldova",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "md",
+				"authorityAbbrev": "shs"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ro-meteoromania-ro",
+				"byLanguage": [
+					{
+						"code": "ro",
+						"name": "Romania: Administratiei Nationale de Meteorologie",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ro-meteoromania-ro.png"
+					},
+					{
+						"code": "en",
+						"name": "Romania: Administratiei Nationale de Meteorologie",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ro-meteoromania-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.642.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=135",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-romania",
+				"isRegistered": true,
+				"memID": "183",
+				"metLink": "http://www.inmh.ro",
+				"region": "6",
+				"latlng": "45.943161,24.96676",
+				"countryName": "Romania",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ro",
+				"authorityAbbrev": "meteoromania"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ru-roshydromet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Russian Federation: Russian Federal Service for Hydrometeorology and Environmental Monitoring",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ru-oshydromet-en.png"
+					},
+					{
+						"code": "ru",
+						"name": "Russian Federation: Russian Federal Service for Hydrometeorology and Environmental Monitoring",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ru-oshydromet-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.643.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=136",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoinfo.ru/hmc-output/cap/cap-feed/en/atom.xml,https://meteoinfo.ru/hmc-output/cap/cap-feed/ru/atom.xml",
+				"isRegistered": true,
+				"memID": "107",
+				"metLink": "https://meteoinfo.ru",
+				"region": "2,6",
+				"latlng": "62.715726,97.057037",
+				"countryName": "Russian Federation",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ru",
+				"authorityAbbrev": "roshydromet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "lc-ms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Saint Lucia: Saint Lucia Meteorological Services",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/lc-ms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.662.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=138",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://saint-lucia.cap-composer.wiscaribbeancmo.org/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "164",
+				"metLink": "https://www.slumet.gov.lc/",
+				"region": "4",
+				"latlng": "13.909444,-60.978893",
+				"countryName": "Saint Lucia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "lc",
+				"authorityAbbrev": "ms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "vc-ms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Saint Vincent and the Grenadines: Meteorological Services",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/vc-ms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.670.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=303",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://vct-primary.capews.com/capews/public/atom?type=cap",
+				"isRegistered": true,
+				"memID": "000",
+				"metLink": "",
+				"region": "4",
+				"latlng": "12.893742,-61.306426",
+				"countryName": "Saint Vincent and the Grenadines",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "vc",
+				"authorityAbbrev": "ms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "st-meteo-pt",
+				"byLanguage": [
+					{
+						"code": "pt",
+						"name": "São Tomé and Príncipe: Instituto Nacional de Meteorologia",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/st-meteo-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.678.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=267",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/st-meteo-pt/rss.xml",
+				"isRegistered": true,
+				"memID": "078",
+				"metLink": "",
+				"region": "1",
+				"latlng": "0.186360,6.613081",
+				"countryName": "Sao Tome and Principe",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "st",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sa-ncm-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Saudi Arabia: National Center for Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sa-ncm-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Saudi Arabia: المركز الوطني للأرصاد",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sa-ncm-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.682.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=140",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://ncm.gov.sa/en/cap-alerts,https://ncm.gov.sa/ar/cap-alerts",
+				"isRegistered": true,
+				"memID": "079",
+				"metLink": "https://ncm.gov.sa/",
+				"region": "2",
+				"latlng": "23.885942,45.079162",
+				"countryName": "Saudi Arabia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sa",
+				"authorityAbbrev": "ncm"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sn-anacim-fr",
+				"byLanguage": [
+					{
+						"code": "fr",
+						"name": "Senegal: Agence Nationale de l'Aviation Civile et de la Météorologie",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sn-anacim-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.686.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=141",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/sn-anacim-fr/rss.xml",
+				"isRegistered": true,
+				"memID": "048",
+				"metLink": "http://www.anacim.sn/",
+				"region": "1",
+				"latlng": "14.497401,-14.452362",
+				"countryName": "Senegal",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sn",
+				"authorityAbbrev": "anacim"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "rs-hidmet-sr",
+				"byLanguage": [
+					{
+						"code": "sr",
+						"name": "Serbia: Републички Хидрометеоролошки завод",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/rs-hidmet-sr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.688.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=144",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-serbia",
+				"isRegistered": true,
+				"memID": "101",
+				"metLink": "http://www.meteo.rs",
+				"region": "6",
+				"latlng": "44.016521,21.005859",
+				"countryName": "Serbia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "rs",
+				"authorityAbbrev": "hidmet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sc-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Seychelles: Seychelles Meteorological Authority",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sc-meteo-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.690.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=145",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.meteo.sc/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "080",
+				"metLink": "https://www.meteo.sc/",
+				"region": "1",
+				"latlng": "-4.679574,55.491977",
+				"countryName": "Seychelles",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sc",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sl-slmet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Sierra Leone: Sierra Leone Meteorological Agency",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sl-slmet-en.png"	
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.694.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=319",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://slmet.gov.sl/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "125",
+				"metLink": "https://slmet.gov.sl/",
+				"region": "1",
+				"latlng": "8.460555,-11.779889",
+				"countryName": "Sierra Leone",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sl",
+				"authorityAbbrev": "slmet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sg-mss-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Singapore: Meteorological Service Singapore",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sg-mss-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.702.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=146",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.weather.gov.sg/files/rss/rsscapalert/rsscapalert.xml",
+				"isRegistered": true,
+				"memID": "081",
+				"metLink": "https://www.weather.gov.sg",
+				"region": "5",
+				"latlng": "1.352083,103.819836",
+				"countryName": "Singapore",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sg",
+				"authorityAbbrev": "mss"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sg-pub-en",
+				"byLanguage": [
+				  {
+					"code": "en",
+					"name": "Singapore: PUB Singapore",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/sg-pub-en.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.702.2",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=332",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://d2x63xuv21a9h4.cloudfront.net/IWMS/rsscapalert.xml",
+				"isRegistered": true,
+				"memID": "081",
+				"metLink": "https://www.pub.gov.sg/",
+				"region": "5",
+				"latlng": "1.352083,103.819836",
+				"countryName": "Singapore",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sg",
+				"authorityAbbrev": "pub"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sk-shmu-sk",
+				"byLanguage": [
+					{
+						"code": "sk",
+						"name": "Slovakia: Slovenský hydrometeorologický ústav",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/sk-shmu-sk.png"
+					},
+					{
+						"code": "en",
+						"name": "Slovakia: Slovenský hydrometeorologický ústav",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/sk-shmu-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.703.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=148",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-slovakia",
+				"isRegistered": true,
+				"memID": "011",
+				"metLink": "http://www.shmu.sk",
+				"region": "6",
+				"latlng": "48.669026,19.699024",
+				"countryName": "Slovakia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sk",
+				"authorityAbbrev": "shmu"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "si-meteo-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Slovenia: National Meteorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/si-meteo-en.png"
+					},
+					{
+						"code": "sl",
+						"name": "Slovenia: Uradna vremenska napoved za Slovenijo",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/si-meteo-sl.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.705.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=150",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-slovenia",
+				"isRegistered": true,
+				"memID": "015",
+				"metLink": "http://www.arso.gov.si",
+				"region": "6",
+				"latlng": "46.151241,14.995463",
+				"countryName": "Slovenia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "si",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sb-sims-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Solomon Islands: Meteorological Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sb-sims-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.90.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=229",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/sb-met-en/rss.xml",
+				"isRegistered": true,
+				"memID": "139",
+				"metLink": "http://met.gov.sb/",
+				"region": "5",
+				"latlng": "-9.64571,160.156194",
+				"countryName": "Solomon Islands",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sb",
+				"authorityAbbrev": "sims"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "so-snma-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Somalia: Somalia National Meteorological Agency",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/so-snma-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.706.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=339",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteosomalia.so/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "165",
+				"metLink": "https://meteosomalia.so",
+				"region": "1",
+				"latlng": "5.152149,46.199616",
+				"countryName": "Somalia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "so",
+				"authorityAbbrev": "snma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "za-saws-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "South Africa: South Africa Weather Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/za-saws-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.710.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=152",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://caps.weathersa.co.za/Home/RssFeed",
+				"isRegistered": true,
+				"memID": "035",
+				"metLink": "http://www.weathersa.co.za",
+				"region": "1",
+				"latlng": "-30.559482,22.937506",
+				"countryName": "South Africa",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "za",
+				"authorityAbbrev": "saws"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ss-ssms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "South Sudan: South Sudan Meteorological Services",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ss-ssms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.728.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=273",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteosouthsudan.com.ss/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "203",
+				"metLink": "https://meteosouthsudan.com.ss",
+				"region": "1",
+				"latlng": "7.963092,30.158930",
+				"countryName": "South Sudan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ss",
+				"authorityAbbrev": "ssms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "es-aemet-es",
+				"byLanguage": [
+					{
+						"code": "es",
+						"name": "Spain: Agencia Estatal de Meteorología",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/es-aemet-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.724.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=153",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/rss/CAP_AFAE_wah_RSS.xml",
+				"isRegistered": true,
+				"memID": "083",
+				"metLink": "http://www.aemet.es",
+				"region": "6",
+				"latlng": "40.463667,-3.74922",
+				"countryName": "Spain",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "es",
+				"authorityAbbrev": "aemet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "lk-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Sri Lanka: Department of Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/lk-meteo-en.png"
+					},
+					{
+						"code": "si",
+						"name": "Sri Lanka: කාලගුණ විද්‍යා දෙපාර්තමේන්තුව",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/lk-meteo-si.png"
+					},
+					{
+						"code": "ta",
+						"name": "Sri Lanka: வானிலை ஆய்வு துறை",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/lk-meteo-ta.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.144.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=154",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://was.meteo.gov.lk/cap/en/rss.xml,https://was.meteo.gov.lk/cap/si/rss.xml,https://was.meteo.gov.lk/cap/ta/rss.xml",
+				"isRegistered": true,
+				"memID": "084",
+				"metLink": "",
+				"region": "2",
+				"latlng": "7.873054,80.771797",
+				"countryName": "Sri Lanka",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "lk",
+				"authorityAbbrev": "meteo"
+			}
+		},		
+		{
+			"source": {
+				"sourceId": "sd-sma-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Sudan: Sudan Meteorological Authority",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sd-sma-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.729.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=156",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteosudan.sd/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "085",
+				"metLink": "https://meteosudan.sd",
+				"region": "1",
+				"latlng": "12.862807,30.217636",
+				"countryName": "Sudan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sd",
+				"authorityAbbrev": "sma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sr-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Suriname: Suriname Meteorological Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sr-meteo-en.png"
+					},
+					{
+						"code": "nl",
+						"name": "Suriname: Meteorologische Dienst Suriname",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sr-meteo-nl.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.740.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=269",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/sr-meteo-en/rss.xml,https://cap-sources.s3.amazonaws.com/sr-meteo-nl/rss.xml",
+				"isRegistered": false,
+				"memID": "086",
+				"metLink": "http://www.meteosur.sr/",
+				"region": "3",
+				"latlng": "3.919305,-56.027783",
+				"countryName": "Suriname",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sr",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "se-smhi-sv",
+				"byLanguage": [
+					{
+						"code": "sv",
+						"name": "Sweden: Sveriges meteorologiska och hydrologiska institut",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/se-smhi-sv.png"
+					},
+					{
+						"code": "en",
+						"name": "Sweden: Sveriges meteorologiska och hydrologiska institut",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/se-smhi-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.752.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=159",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-sweden",
+				"isRegistered": false,
+				"memID": "096",
+				"metLink": "http://www.smhi.se/",
+				"region": "6",
+				"latlng": "63.551342,16.516707",
+				"countryName": "Sweden",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "se",
+				"authorityAbbrev": "smhi"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ch-meteoswiss-de",
+				"byLanguage": [
+					{
+						"code": "de",
+						"name": "Switzerland: MeteoSwiss, Bundesamt für Meteorologie und Klimatologie",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/ch-meteoswiss-de.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.756.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=160",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-switzerland",
+				"isRegistered": false,
+				"memID": "087",
+				"metLink": "http://www.meteoswiss.ch/web/en/weather.html",
+				"region": "6",
+				"latlng": "46.818188,8.227512",
+				"countryName": "Switzerland",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ch",
+				"authorityAbbrev": "meteoswiss"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "sy-med-ar",
+				"byLanguage": [
+					{
+						"code": "ar",
+						"name": "Syrian Arab Republic: Ministry of emergency and disaster management",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/sy-med-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.760.1",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=338",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://climweb.med.gov.sy/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "099",
+				"metLink": "https://climweb.med.gov.sy/",
+				"region": "6",
+				"latlng": "34.802075,38.996815",
+				"countryName": "Syrian Arab Republic",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "sy",
+				"authorityAbbrev": "med"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "th-tmd-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Thailand: Thai Meteorological Department",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/th-tmd-en.png"
+					},
+					{
+						"code": "th",
+						"name": "Thailand: กรมอุตุนิยมวิทยา",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/th-tmd-th.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.764.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=164",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.tmd.go.th/en/api/xml/CAP,https://www.tmd.go.th/api/xml/CAP",
+				"isRegistered": true,
+				"memID": "089",
+				"metLink": "https://www.tmd.go.th/",
+				"region": "2",
+				"latlng": "15.870032,100.992541",
+				"countryName": "Thailand",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "th",
+				"authorityAbbrev": "tmd"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tl-dnmg-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Timor-Leste: National Directorate of Meteorology and Geophysics",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tl-dnmg-en.png"
+					},
+					{
+						"code": "pt",
+						"name": "Timor-Leste: Dirrecão Nacional Meteorologia e Geofisica",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tl-dnmg-pt.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.626.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=317",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://ms-api.dnmg.gov.tl/cap/feed/rss.xml,https://cap-sources.s3.amazonaws.com/tl-dnmg-pt/rss.xml",
+				"isRegistered": true,
+				"memID": "204",
+				"metLink": "",
+				"region": "5",
+				"latlng": "-8.874217,125.727539",
+				"countryName": "Timor-Leste",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tl",
+				"authorityAbbrev": "dnmg"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tg-dgmn-fr",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Togo: Agence Nationale de la Météorologie du Togo",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tg-dgmn-en.png"
+					},
+					{
+						"code": "fr",
+						"name": "Togo: Agence Nationale de la Météorologie du Togo",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tg-dgmn-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.768.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=316",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteotogo.tg/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "091",
+				"metLink": "https://meteotogo.tg/",
+				"region": "1",
+				"latlng": "8.619543,0.824782",
+				"countryName": "Togo",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tg",
+				"authorityAbbrev": "dgmn"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tt-ttms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Trinidad and Tobago: Trinidad and Tobago Meteorological Service",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/tt-ttms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.780.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=166",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://metproducts.gov.tt/ttms/public/api/feed?type=rss",
+				"isRegistered": true,
+				"memID": "027",
+				"metLink": "http://www.metoffice.gov.tt/",
+				"region": "4",
+				"latlng": "10.691803,-61.222503",
+				"countryName": "Trinidad and Tobago",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tt",
+				"authorityAbbrev": "ttms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tn-meteo-fr",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Tunisia: National Institute of Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tn-meteo-en.png"
+					},
+					{
+						"code": "ar",
+						"name": "Tunisia: المعهد الوطني للرصد الجوي",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tn-meteo-ar.png"
+					},
+					{
+						"code": "fr",
+						"name": "Tunisia: Institut National de la Meteorologie",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tn-meteo-fr.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.788.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=167",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/tn-meteo-en/rss.xml,https://cap-sources.s3.amazonaws.com/tn-meteo-ar/rss.xml,https://cap-sources.s3.amazonaws.com/tn-meteo-fr/rss.xml",
+				"isRegistered": true,
+				"memID": "123",
+				"metLink": "https://www.meteo.tn/",
+				"region": "1",
+				"latlng": "33.886917,9.537499",
+				"countryName": "Tunisia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tn",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tc-gov-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Turks and Caicos Islands: TCI Emergency Alerts",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tc-gov-en.png"
+					},
+					{
+						"code": "ht",
+						"name": "Turks and Caicos Islands: Alèt Ijans TCI",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tc-gov-ht.png"
+					},
+					{
+						"code": "es",
+						"name": "Turks and Caicos Islands: TCI Alertas de Emergencia",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tc-gov-es.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.796.2",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=334",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/tc-gov-en/rss.xml,https://cap-sources.s3.amazonaws.com/tc-gov-ht/rss.xml,https://cap-sources.s3.amazonaws.com/tc-gov-es/rss.xml",
+				"isRegistered": true,
+				"memID": "000",
+				"metLink": "",
+				"region": "4",
+				"latlng": "21.573382,-71.781104",
+				"countryName": "Turks and Caicos Islands",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tc",
+				"authorityAbbrev": "gov"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tv-tuvmet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Tuvalu: Tuvalu Meteorological Service",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tv-tuvmet-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.798.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=270",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/tv-tuvmet-en/rss.xml",
+				"isRegistered": true,
+				"memID": "202",
+				"metLink": "",
+				"region": "5",
+				"latlng": "-10.728072,179.472656",
+				"countryName": "Tuvalu",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tv",
+				"authorityAbbrev": "tuvmet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ug-dms-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Uganda: Department of Meteorology",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ug-dms-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.800.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=170",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://wids.mwe.go.ug/api/v1/cap/feed",
+				"isRegistered": true,
+				"memID": "168",
+				"metLink": "https://wids.mwe.go.ug",
+				"region": "1",
+				"latlng": "1.373333,32.290275",
+				"countryName": "Uganda",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ug",
+				"authorityAbbrev": "dms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ua-meteo-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Ukraine: Ukrainian Hydrometeorological Center",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ua-meteo-en.png"
+					},
+					{
+						"code": "uk",
+						"name": "Ukraine: Український гідрометеорологічний центр",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ua-meteo-uk.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.804.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=172",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-ukraine",
+				"isRegistered": true,
+				"memID": "092",
+				"metLink": "https://www.meteo.gov.ua/",
+				"region": "6",
+				"latlng": "48.379433,31.165580",
+				"countryName": "Ukraine",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ua",
+				"authorityAbbrev": "meteo"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "uk-metoffice-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "United Kingdom of Great Britain and Northern Ireland: Met Office",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/uk-metoffice-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.826.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=174",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-united-kingdom",
+				"isRegistered": true,
+				"memID": "010",
+				"metLink": "https://www.metoffice.gov.uk",
+				"region": "1,4,5,6",
+				"latlng": "53.509285,-1.713867",
+				"countryName": "United Kingdom of Great Britain and Northern Ireland",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "gb",
+				"authorityAbbrev": "metoffice"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "tz-tma-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "United Republic of Tanzania: Meteorological Agency",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tz-tma-en.png"
+					},
+					{
+						"code": "sw",
+						"name": "Tanzania: Mamlaka ya Hali ya Hewa Tanzania",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/tz-tma-sw.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.834.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=176",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/tz-tma-en/rss.xml,https://cap-sources.s3.amazonaws.com/tz-tma-sw/rss.xml",
+				"isRegistered": true,
+				"memID": "049",
+				"metLink": "http://www.meteo.go.tz/",
+				"region": "1",
+				"latlng": "-6.369028,34.888822",
+				"countryName": "United Republic of Tanzania",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "tz",
+				"authorityAbbrev": "tma"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "us-noaa-nws-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "United States of America: National Oceanic and Atmospheric Administration (NOAA), National Weather Service ",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/us-noaa-nws-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.840.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=177",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://api.weather.gov/alerts/active.atom?region_type=land",
+				"isRegistered": true,
+				"memID": "093",
+				"metLink": "http://www.nws.noaa.gov",
+				"region": "4,5",
+				"latlng": "39.964491,-100.810547",
+				"countryName": "United States of America",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "us",
+				"authorityAbbrev": "noaa-nws"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "us-noaa-nws-en-marine",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "United States of America: National Oceanic and Atmospheric Administration (NOAA), National Weather Service - Marine Zones",
+						"logo": "https://s3-eu-west-1.amazonaws.com/alert-hub/images/us-noaa-nws-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.840.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=177",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://api.weather.gov/alerts/active.atom?region_type=marine",
+				"isRegistered": false,
+				"memID": "093",
+				"metLink": "http://www.nws.noaa.gov",
+				"region": "4,5",
+				"latlng": "39.964491,-100.810547",
+				"countryName": "United States of America",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "us",
+				"authorityAbbrev": "noaa-nws"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "uy-inumet-es",
+				"byLanguage": [
+				  {
+					"code": "es",
+					"name": "Uruguay: Institute of Meteorology",
+					"logo": "https://alert-hub.s3.amazonaws.com/images/uy-inumet-es.png"
+				  }
+				],
+				"guid": "urn:oid:2.49.0.0.858.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=178",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.inumet.gub.uy/reportes/riesgo/rss.xml",
+				"isRegistered": true,
+				"memID": "094",
+				"metLink": "https://www.inumet.gub.uy/",
+				"region": "3",
+				"latlng": "-32.522779,-55.765835",
+				"countryName": "Uruguay",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "uy",
+				"authorityAbbrev": "inumet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "uz-hydromet-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Uzbekistan: Uzhydromet",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/uz-hydromet-en.png"
+					},
+					{
+						"code": "ru",
+						"name": "Uzbekistan: Узгидромет",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/uz-hydromet-ru.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.860.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=234",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://meteoalert.meteoinfo.ru/uzbekistan/cap-feed/en/atom.xml,https://meteoalert.meteoinfo.ru/uzbekistan/cap-feed/ru/atom.xml",
+				"isRegistered": true,
+				"memID": "032",
+				"metLink": "https://hydromet.uz/",
+				"region": "2",
+				"latlng": "41.377491,64.585262",
+				"countryName": "Uzbekistan",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "uz",
+				"authorityAbbrev": "hydromet"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "vu-vmgd-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Vanuatu: Vanuatu Meteorology and Geo-hazards Department",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/vu-vmgd-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.548.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=179",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/vu-vmgd-en/rss.xml",
+				"isRegistered": true,
+				"memID": "169",
+				"metLink": "https://www.vmgd.gov.vu/",
+				"region": "5",
+				"latlng": "-15.376706,166.959158",
+				"countryName": "Vanuatu",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "vu",
+				"authorityAbbrev": "vmgd"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "vi-nchmf-xx",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Viet Nam: National Center for Hydrometeorolgical Forecasting",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/vn-nchmf-en.png"
+					},
+					{
+						"code": "vi",
+						"name": "Viet Nam: Trung tâm Dự báo khí tượng thuỷ văn quốc gia",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/vn-nchmf-vi.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.704.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=235",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://smartalert.nchmf.gov.vn/smartalert/capfeed.php",
+				"isRegistered": false,
+				"memID": "082",
+				"metLink": "https://www.nchmf.gov.vn",
+				"region": "2",
+				"latlng": "15.079085,107.046730",
+				"countryName": "Viet Nam",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "vi",
+				"authorityAbbrev": "nchmf"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "ye-yms-ar",
+				"byLanguage": [
+					{
+						"code": "ar",
+						"name": "Yemen: دائرة الأرصاد الجوية اليمنية",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/ye-yms-ar.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.887.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=133",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://cap-sources.s3.amazonaws.com/ye-yms-ar/rss.xml",
+				"isRegistered": true,
+				"memID": "163",
+				"metLink": "https://yms.gov.ye/",
+				"region": "2",
+				"latlng": "15.552727,48.516388",
+				"countryName": "Yemen",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "ye",
+				"authorityAbbrev": "yms"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "zm-zmd-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Zambia: Zambia Meteorological Department",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/zm-zmd-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.894.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=189",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://zmd.gov.zm/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "040",
+				"metLink": "https://zmd.gov.zm/",
+				"region": "1",
+				"latlng": "-13.133897,27.849332",
+				"countryName": "Zambia",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "zm",
+				"authorityAbbrev": "zmd"
+			}
+		},
+		{
+			"source": {
+				"sourceId": "zw-msd-en",
+				"byLanguage": [
+					{
+						"code": "en",
+						"name": "Zimbabwe: Meteorological Services Department",
+						"logo": "https://alert-hub.s3.amazonaws.com/images/zw-msd-en.png"
+					}
+				],
+				"guid": "urn:oid:2.49.0.0.716.0",
+				"registerUrl": "https://alertingauthority.wmo.int/authorities.php?recId=190",
+				"sourceIsOfficial": true,
+				"capAlertFeed": "https://www.weatherzw.org.zw/api/cap/rss.xml",
+				"isRegistered": true,
+				"memID": "130",
+				"metLink": "https://www.weatherzw.org.zw/",
+				"region": "1",
+				"latlng": "-19.015438,29.154857",
+				"countryName": "Zimbabwe",
+				"capAlertFeedStatus": "operating",
+				"authorityCountry": "zw",
+				"authorityAbbrev": "msd"
+			}
+		}
+	]
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cap-sources.s3.amazonaws.com/bz-nms-en/rss-style.xsl"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <atom:link rel="hub" href="//alert-hub.appspot.com"/>
+    <atom:link rel="self" href="https://cap-sources.s3.amazonaws.com/bz-nms-en/rss.xml" type="application/rss+xml"/>
+    <title>Latest alerts from National Meteorological Service</title>
+    <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/rss.xml</link>
+    <description>Latest alerts from National Meteorological Service</description>
+    <language>en</language>
+    <copyright>public domain</copyright>
+    <pubDate>Mon, 19 Oct 2026 17:53:53 +0000</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2026 17:53:53 +0000</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <image>
+      <title>Latest alerts from National Meteorological Service</title>
+      <url>https://alert-hub.s3.amazonaws.com/images/bz-nms-en.png</url>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/rss.xml</link>
+    </image>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-19-17-53-43.xml</link>
+      <description>Winds may become gusty near heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.19.17.53.43</guid>
+      <pubDate>Mon, 19 Oct 2026 17:53:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-19-00-09-35.xml</link>
+      <description>An additional 1-3 inches of rainfall are possible over the country during the next 12-18 hours.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.19.0.9.35</guid>
+      <pubDate>Mon, 19 Oct 2026 00:09:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-18-23-34-49.xml</link>
+      <description>Winds may become gusty during heavy showers, producing locally rough seas.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.18.23.34.49</guid>
+      <pubDate>Sun, 18 Oct 2026 23:34:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-18-18-04-47.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>tmatthews@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.18.18.4.47</guid>
+      <pubDate>Sun, 18 Oct 2026 18:04:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-18-17-40-55.xml</link>
+      <description>An additional 1-3 inches of rainfall are possible over the country during the next 12-24 hours.</description>
+      <author>tmatthews@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.18.17.40.55</guid>
+      <pubDate>Sun, 18 Oct 2026 17:40:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WARNING</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-18-12-13-35.xml</link>
+      <description>An additional 2-4 inches of rainfall is likely over some areas during the next 12-24 hours.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.18.12.13.35</guid>
+      <pubDate>Sun, 18 Oct 2026 12:13:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-18-11-27-28.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.18.11.27.28</guid>
+      <pubDate>Sun, 18 Oct 2026 11:27:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-23-43-34.xml</link>
+      <description>Excessive rainfall of up to 2-4 inches or more is possible over the country during the next day or so.</description>
+      <author>tmatthews@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.23.43.34</guid>
+      <pubDate>Sat, 17 Oct 2026 23:43:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-23-32-17.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>tmatthews@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.23.32.17</guid>
+      <pubDate>Sat, 17 Oct 2026 23:32:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WARNING</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-18-03-20.xml</link>
+      <description>An additional 2-4 inches of rainfall is possible over some areas during the next 24 hours or so.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.18.3.20</guid>
+      <pubDate>Sat, 17 Oct 2026 18:03:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-17-47-23.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.17.47.23</guid>
+      <pubDate>Sat, 17 Oct 2026 17:47:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-11-57-14.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.11.57.14</guid>
+      <pubDate>Sat, 17 Oct 2026 11:57:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WARNING</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-11-55-19.xml</link>
+      <description>An additional 2-4 inches of rainfall is possible over some areas during the next 24 hours or so.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.11.55.19</guid>
+      <pubDate>Sat, 17 Oct 2026 11:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WARNING</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-17-00-11-55.xml</link>
+      <description>An additional 2-4 inches of rainfall is possible over some areas during the next 24 hours or so.</description>
+      <author>deputy@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.17.0.11.55</guid>
+      <pubDate>Sat, 17 Oct 2026 00:11:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-16-23-35-23.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>deputy@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.16.23.35.23</guid>
+      <pubDate>Fri, 16 Oct 2026 23:35:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-16-17-53-07.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.16.17.53.7</guid>
+      <pubDate>Fri, 16 Oct 2026 17:53:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-16-17-51-07.xml</link>
+      <description>Excessive rainfall of up to 2-4 inches per day or more is possible over the country during the next couple of days.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.16.17.51.7</guid>
+      <pubDate>Fri, 16 Oct 2026 17:51:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WARNING</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-16-13-02-23.xml</link>
+      <description>An additional 2-4 inches of rainfall is expected over the north coast and northern offshore areas, following the 1.5-3in that have already accumulated since midnight.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.16.13.2.23</guid>
+      <pubDate>Fri, 16 Oct 2026 13:02:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-16-12-07-28.xml</link>
+      <description>Excessive rainfall of up to 2-4 inches per day or more is possible over the country during the next couple of days.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.16.12.7.28</guid>
+      <pubDate>Fri, 16 Oct 2026 12:07:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-16-11-40-39.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>crosalez@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.16.11.40.39</guid>
+      <pubDate>Fri, 16 Oct 2026 11:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>SMALL CRAFT CAUTION</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-15-23-18-15.xml</link>
+      <description>Winds may become gusty during heavy showers or thunderstorms, producing locally rough seas.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.15.23.18.15</guid>
+      <pubDate>Thu, 15 Oct 2026 23:18:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-15-23-15-09.xml</link>
+      <description>Excessive rainfall of up to 2-4 inches per day or more is possible over the country during the next couple of days.</description>
+      <author>drudon@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.15.23.15.9</guid>
+      <pubDate>Thu, 15 Oct 2026 23:15:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-15-18-01-43.xml</link>
+      <description>Excessive rainfall of up to 2-4 inches or more is possible over the country during the next couple of days.</description>
+      <author>tmatthews@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.15.18.1.43</guid>
+      <pubDate>Thu, 15 Oct 2026 18:01:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXCESSIVE RAINFALL WATCH</title>
+      <link>https://cap-sources.s3.amazonaws.com/bz-nms-en/2026-10-15-12-24-51.xml</link>
+      <description>Excessive rainfall of up to 2-4 inches or more is possible over the country during the next couple of days.</description>
+      <author>tmatthews@nms.gov.bz (NMS Belize)</author>
+      <category>Met</category>
+      <guid>urn:oid:2.49.0.1.84.0.2026.10.15.12.24.51</guid>
+      <pubDate>Thu, 15 Oct 2026 12:24:51 +0000</pubDate>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

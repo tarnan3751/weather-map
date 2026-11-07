@@ -1,0 +1,12 @@
+#STN       LAT      LON  YYYY MM DD hh mm WDIR WSPD   GST WVHT  DPD APD MWD   PRES  PTDY  ATMP  WTMP  DEWP  VIS   TIDE
+#text      deg      deg   yr mo day hr mn degT  m/s   m/s   m   sec sec degT   hPa   hPa  degC  degC  degC  nmi     ft
+22101    37.24   126.02  2026 11 06 17 00 350   9.0    MM  0.5   0   MM  MM     MM    MM   9.2  18.6    MM   MM     MM
+32ST0   -22.000  -85.000 2026 11 06 17 30 120   7.0    MM   MM  MM   MM  MM 1020.5    MM  20.5  21.2  15.4   MM     MM
+AAMC1    37.772 -122.300 2026 11 06 17 48 190   1.0   1.0   MM  MM   MM  MM 1022.1    MM    MM    MM    MM   MM     MM
+ABYA2    58.381 -134.646 2026 11 06 17 52  40   1.5   5.1   MM  MM   MM  MM  990.7    MM   6.7    MM    MM   MM     MM
+41013    33.436  -77.764 2026 11 06 17 50 170   7.0   9.0  1.2   9  5.0 103 1011.4    MM  24.2    MM  22.2   MM     MM
+42002    25.950  -93.780 2026 11 06 17 50  70   4.0   5.0  0.6   3  3.4   5 1014.4    MM    MM    MM    MM   MM     MM
+62107    50.102   -6.100 2026 11 06 17 00  MM    MM    MM  0.6  MM    8  MM 1021.8    MM  11.7  13.6   7.6    5     MM
+62121    53.500    2.700 2026 11 06 17 00 100   4.6    MM   MM  MM   MM  MM 1023.9  -0.3   9.3    MM   6.3   11     MM
+41010    28.860  -78.478 2026 11 06 17 40  MM   0.0   2.0   MM  MM   MM  MM 1012.6    MM  25.9  27.7  20.4   MM     MM
+46035    57.034 -177.468 2026 11 06 17 40 350  11.0  14.0   MM  MM   MM  MM     MM    MM    MM   5.9    MM   MM     MM

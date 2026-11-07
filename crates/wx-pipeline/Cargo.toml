@@ -1,0 +1,27 @@
+[package]
+name = "wx-pipeline"
+description = "GRIB2 decoding, derived fields and tiling. Pure computation, no I/O."
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+wx-core = { workspace = true }
+wx-tile = { workspace = true }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+rayon = { workspace = true }
+flate2 = { workspace = true }
+# Pure Rust. Covers every packing the feeds use: simple (5.0), complex with
+# spatial differencing (5.2, 5.3), JPEG 2000 (5.40, through hayro-jpeg2000),
+# PNG (5.41) and CCSDS (5.42, through rust-aec). The default features would
+# link openjpeg and libaec, which are C, so they stay off.
+grib = { version = "0.20.3", default-features = false, features = [
+    "png-unpack-with-png-crate",
+    "jpeg2000-unpack-with-hayro",
+    "ccsds-unpack-with-rust-aec",
+] }
+zstd = { version = "0.13.3", default-features = false }
+
+[dev-dependencies]
+png = "0.18.1"

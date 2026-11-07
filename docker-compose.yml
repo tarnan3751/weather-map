@@ -1,0 +1,22 @@
+# Local development services. The app itself runs with `cargo run -p wx-server`.
+services:
+  db:
+    # The official postgis/postgis image has no arm64 build; this one is built
+    # from the same Dockerfiles for both amd64 and arm64.
+    image: ${POSTGIS_IMAGE:-imresamu/postgis:17-3.5}
+    environment:
+      POSTGRES_USER: wx
+      POSTGRES_PASSWORD: wx
+      POSTGRES_DB: wx
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - wx-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wx -d wx"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  wx-db:

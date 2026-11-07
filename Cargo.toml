@@ -1,0 +1,59 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[workspace.dependencies]
+wx-tile = { path = "crates/wx-tile" }
+wx-core = { path = "crates/wx-core" }
+wx-pipeline = { path = "crates/wx-pipeline" }
+wx-ingest = { path = "crates/wx-ingest" }
+wx-alerts = { path = "crates/wx-alerts" }
+wx-obs = { path = "crates/wx-obs" }
+
+anyhow = "1"
+thiserror = "2"
+bytes = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock", "serde", "std"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["rt"] }
+tracing = "0.1"
+rayon = "1"
+rand = "0.9"
+flate2 = "1"
+futures = "0.3"
+uuid = { version = "1", features = ["v4", "serde"] }
+url = "2"
+axum = { version = "0.8", features = ["ws", "macros"] }
+tower-http = { version = "0.7", features = ["fs", "trace", "compression-gzip", "set-header"] }
+sqlx = { version = "0.9", default-features = false, features = ["runtime-tokio", "tls-rustls", "postgres", "chrono", "uuid", "json", "migrate", "macros"] }
+reqwest = { version = "0.13", default-features = false, features = ["rustls", "http2", "gzip", "json", "stream", "query"] }
+object_store = { version = "0.14", features = ["aws"] }
+wx-formats = { path = "crates/wx-formats" }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 4
+
+# For the tile decoder compiled to WebAssembly (crates/wx-tile-wasm), where
+# download size matters: `npm run build:wasm` in web/ uses it.
+[profile.wasm-release]
+inherits = "release"
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+debug = false

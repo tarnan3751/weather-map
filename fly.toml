@@ -1,0 +1,50 @@
+# Fly.io deployment. Run exactly one machine (`fly scale count 1`): the feeds
+# live in the server process, and a second instance refuses to start while the
+# first holds the database. Before the first deploy:
+#   fly apps create <name>            and set `app` below
+#   fly postgres create / attach      (the database needs the PostGIS extension)
+#   fly secrets set DATABASE_URL=... S3_ACCESS_KEY_ID=... S3_SECRET_ACCESS_KEY=... \
+#       VAPID_PUBLIC_KEY=... VAPID_PRIVATE_KEY=... VAPID_SUBJECT=mailto:you@example.com \
+#       UPSTREAM_USER_AGENT="my-weather-map (https://example.org/contact)"
+app = "weather-map"
+# NOAA's buckets are in AWS us-east-1, and they are the largest downloads;
+# ingest is fastest next door.
+primary_region = "iad"
+
+[env]
+  BIND_ADDR = "0.0.0.0:8080"
+  # Tiles and grids in S3-compatible storage (Cloudflare R2 shown).
+  STORE_URL = "s3://weather-map-tiles"
+  S3_ENDPOINT = "https://<account-id>.r2.cloudflarestorage.com"
+  S3_REGION = "auto"
+  # The basemap archive, uploaded once to a public bucket.
+  BASEMAP_URL = "https://<public-bucket-host>/world.pmtiles"
+  # Every source runs unless FEEDS names a subset. The full set downloads tens
+  # of gigabytes a day (docs/sources/README.md has each source's share); a
+  # smaller deployment could start with, for example:
+  # FEEDS = "mrms,rtma,hrrr,gfs,gdps,opera,cmorph,alerts,stations"
+  GRID_CACHE_MB = "600"
+  MAX_BUILDS = "2"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  # The feeds run inside this process, so the machine must never be stopped
+  # for being idle.
+  auto_stop_machines = "off"
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [[http_service.checks]]
+    method = "GET"
+    path = "/healthz"
+    interval = "15s"
+    timeout = "3s"
+    grace_period = "20s"
+
+[[vm]]
+  # Decoding continental radar mosaics and full-disk satellite images, two at
+  # a time, while holding grids warm for tiles: the full set of sources peaks
+  # around 2 GB of memory during a cold start, and decoding is CPU-bound.
+  size = "performance-2x"
+  memory = "4gb"

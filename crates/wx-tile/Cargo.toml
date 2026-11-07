@@ -1,0 +1,16 @@
+[package]
+name = "wx-tile"
+description = "WXT1 raw-value map tile codec (pure Rust, no I/O, builds for wasm32)"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+flate2 = { workspace = true }
+thiserror = { workspace = true }
+
+# Natively, the zlib-rs backend: it deflates tiles about a third faster than
+# the default one, and a little smaller. The WebAssembly decoder only
+# inflates, and keeps the default.
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+flate2 = { workspace = true, features = ["zlib-rs"] }

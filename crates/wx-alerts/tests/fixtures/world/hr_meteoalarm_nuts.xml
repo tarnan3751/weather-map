@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.0.191.0.HR.261106191231_0_002_yellow_HR023</identifier>
+  <sender>https://meteo.hr</sender>
+  <sent>2026-11-06T19:12:31+01:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <incidents/>
+  <info>
+    <language>hr-HR</language>
+    <category>Met</category>
+    <event>Žuto upozorenje za vjetar</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <effective>2026-11-06T19:12:31+01:00</effective>
+    <onset>2026-11-07T00:00:00+01:00</onset>
+    <expires>2026-11-07T23:59:59+01:00</expires>
+    <senderName>DHMZ - Državni hidrometeorološki zavod</senderName>
+    <description>Podno Velebita mjestimice jaka bura s olujnim udarima.</description>
+    <instruction>BUDITE NA OPREZU zbog krhotina koje lete nošene jakim vjetrom. Mogući su lokalizirani prekidi u aktivnostima na otvorenom.</instruction>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <area>
+      <areaDesc>Zadarska</areaDesc>
+      <geocode>
+        <valueName>EMMA_ID</valueName>
+        <value>HR023</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>HR033</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Yellow wind warning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <effective>2026-11-06T19:12:31+01:00</effective>
+    <onset>2026-11-07T00:00:00+01:00</onset>
+    <expires>2026-11-07T23:59:59+01:00</expires>
+    <senderName>DHMZ - Croatian Meteorological and Hydrological Service</senderName>
+    <description>Locally strong bura (NE wind) with gale force gusts along the foothills of the Velebit.</description>
+    <instruction>STAY ALERT for debris carried by strong winds. Debris and tree branches carried by the wind may cause localised interruptions in outdoor activities.</instruction>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <area>
+      <areaDesc>Zadarska</areaDesc>
+      <geocode>
+        <valueName>EMMA_ID</valueName>
+        <value>HR023</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>HR033</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.0.380.3.IT.261106103642.019</identifier>
+  <sender>aerocnmca.1sv.prv1@aeronautica.difesa.it</sender>
+  <sent>2026-11-06T10:36:42+01:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <references>aerocnmca.1sv.prv1@aeronautica.difesa.it,2.49.0.0.380.3.IT.261105103145.015,2026-11-05T10:31:45+01:00</references>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Yellow Thunderstorm Warning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <audience>Private</audience>
+    <effective>2026-11-07T14:00:00+01:00</effective>
+    <onset>2026-11-07T14:00:00+01:00</onset>
+    <expires>2026-11-08T01:59:00+01:00</expires>
+    <senderName>Italian Air Force National Meteorological Service</senderName>
+    <headline>Yellow Thunderstorm Warning for Italy - Abruzzo</headline>
+    <description>Moderate intensity weather phenomena expected
+ (DISCLAIMER: "Information provided on METEOALARM for Italy regard only the intensity and recurrence of the phenomena, further details can be found at www.meteoam.it. METEOALARM information do not provide the assessment of impact on the territory and they do not represent the Official Alerts messages that are issued by the National Civil Protection Service https://www.protezionecivile.gov.it")</description>
+    <instruction>BE AWARE, keep up to date with the latest weather forecast. Expect some minor disruption to outdoor activities</instruction>
+    <web>https://meteoalarm.org/en/live/region/IT?s=abruzzo</web>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>3; Thunderstorm</value>
+    </parameter>
+    <area>
+      <areaDesc>Abruzzo</areaDesc>
+      <geocode>
+        <valueName>EMMA_ID</valueName>
+        <value>IT013</value>
+      </geocode>
+    </area>
+  </info>
+  <info>
+    <language>it-IT</language>
+    <category>Met</category>
+    <event>Giallo Temporali Allerta</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <audience>Privato</audience>
+    <effective>2026-11-07T14:00:00+01:00</effective>
+    <onset>2026-11-07T14:00:00+01:00</onset>
+    <expires>2026-11-08T01:59:00+01:00</expires>
+    <senderName>Servizio Meteorologico dell'Aeronautica Militare</senderName>
+    <headline>Allerta Temporali Giallo per l'Italia - Abruzzo</headline>
+    <description>Sono previsti fenomeni meteorologici di moderata intensità
+ (DISCLAIMER: "Le informazioni fornite su METEOALARM per l'Italia riguardano esclusivamente l'intensità e la ricorrenza dei fenomeni, maggiori dettagli sono disponibili su www.meteoam.it. Le informazioni METEOALARM non forniscono la valutazione di impatto sul territorio e non rappresentano i messaggi di Allerta Ufficiali che vengono emessi dal Servizio Nazionale di Protezione Civile https://www.protezionecivile.gov.it")</description>
+    <instruction>STARE (RIMANERE) ATTENTI. Tenersi aggiornati con le previsioni del tempo più recenti. Aspettarsi alcuni disagi minori per le attività all'aria aperta.</instruction>
+    <web>https://meteoalarm.org/it/live/region/IT?s=abruzzo</web>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>3; Thunderstorm</value>
+    </parameter>
+    <area>
+      <areaDesc>Abruzzo</areaDesc>
+      <geocode>
+        <valueName>EMMA_ID</valueName>
+        <value>IT013</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

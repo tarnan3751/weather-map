@@ -1,0 +1,17 @@
+{
+ "properties": {
+  "cwa": "OUN",
+  "gridId": "OUN",
+  "gridX": 100,
+  "gridY": 83,
+  "forecast": "https://api.weather.gov/gridpoints/OUN/100,83/forecast",
+  "forecastHourly": "https://api.weather.gov/gridpoints/OUN/100,83/forecast/hourly",
+  "timeZone": "America/Chicago",
+  "relativeLocation": {
+   "properties": {
+    "city": "Norman",
+    "state": "OK"
+   }
+  }
+ }
+}

@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.0381057386.2026</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2026-11-06T02:26:06-00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Service Notice – October 2026: The Environment and Climate Change Canada (ECCC) CAP Service undergoes changes from time to time as the business of alerting evolves. For Fall 2026, changes are expected to include... 1) Coastal flooding alerts will start to be issued in Northern Ontario (along the Hudson Bay/James Bay coast) and in Northern Quebec, 2) Time zones will be updated for Yukon, British Columbia, Alberta, Manitoba and Northwest Territories following the changes that are happening in Western Canada, 3) A new parameter will be available to represent the risk-colour of the alert in its previous state, 4) The event values are updated for the following alert types: Tropical Cyclone Statement, Marine Weather Advisory, Coastal Flooding Warning, and Coastal Flooding Statement, 5) the ECCC Signature Certificate of the CAP posted in Pelmorex NAADS feed is getting an update by end of November, 2026 and 6) other minor improvements and corrections. For more information on these changes: https://comm.collab.science.gc.ca/mailman3/hyperkitty/list/dd_info@comm.collab.science.gc.ca/ | Notification de service – octobre 2026: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements à mesure que le système d’alerte évolue. Pour l’automne 2026, il y aura des changements incluant... 1) Des alertes de submersion côtière commenceront à être émises dans le nord de l’Ontario (le long des côtes de la baie d’Hudson et de la baie James) ainsi que dans le nord du Québec, 2) Les fuseaux horaires seront mis à jour pour le Yukon, la Colombie-Britannique, l’Alberta, le Manitoba et les Territoires du Nord-Ouest afin de tenir compte des changements qui ont lieu dans l’Ouest canadien, 3) Un nouveau paramètre sera disponible afin de représenter la couleur de risque de l’alerte dans son état précédent, 4) Les valeurs d’événement seront mises à jour pour les types d’alertes suivants : bulletin sur les cyclones tropicaux, avis météorologique maritime, avertissement de submersion côtière et bulletin de submersion côtière, 5) Le certificat de signature d’ECCC pour le PAC, publié dans le flux NAADS de Pelmorex, sera mis à jour d’ici la fin novembre 2026 et 6) d’autres améliorations et corrections mineures. Pour plus d’informations sur ces changements: https://comm.collab.science.gc.ca/mailman3/hyperkitty/list/dd_info@comm.collab.science.gc.ca/</note>
+    <references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.4123941209.2026,2026-11-05T19:24:08-00:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>weather</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Minor</severity>
+        <certainty>Possible</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-11-06T02:26:06-00:00</effective>
+        <onset>2026-11-06T15:00:00-00:00</onset>
+        <expires>2026-11-06T18:26:06-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>special weather statement in effect</headline>
+        <description>
+Prolonged, heavy rainfall is possible.
+
+Locations: parts of southwestern Nova Scotia.
+
+Potential rainfall: 40 to 80 mm.
+
+Time span: Friday afternoon until Sunday night.
+
+Remarks: A slow-moving weather system is expected to bring a period of prolonged rainfall which may become heavy at times. Thundershowers may develop over some areas, producing locally heavier rainfall. There is some uncertainty as to where the highest rainfall amounts will occur, but the potential exists for significant totals over some locations.
+
+###
+
+Please continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to NSstorm@ec.gc.ca or post reports on social media using #NSStorm.
+</description>
+        <instruction/>
+        <web>https://weather.gc.ca/</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20261106022142189/WS_11_71_CWHX/SPS/1807007051752233258202611050506_WS_11_71_CWHX/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:24525 M:125682 C:144980</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>special weather statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Nova Scotia</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WS_11_71_CWHX</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Event_End_Time</valueName>
+            <value>2026-11-09T00:00:00.000Z</value>
+        </parameter>
+        <area>
+            <areaDesc>Kings County</areaDesc>
+            <polygon>44.9011,-64.434 44.8377,-64.5243 44.838,-64.5248 44.8422,-64.5316 44.6652,-64.7714 44.8696,-64.9165 45.1153,-65.0526 45.1158,-65.0516 45.1166,-65.0498 45.1335,-65.0356 45.3454,-64.5186 45.3291,-64.3226 45.2662,-64.2264 45.1355,-64.2458 45.077,-64.1737 45.0369,-64.2321 44.9011,-64.434</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1207</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Annapolis County</areaDesc>
+            <polygon>44.3106,-65.3296 44.6859,-65.7604 44.7361,-65.8088 44.7398,-65.8017 45.1153,-65.0526 45.1158,-65.0516 44.8889,-64.8921 44.6652,-64.7714 44.5351,-64.9461 44.4392,-65.0709 44.4419,-65.1586 44.4111,-65.1798 44.3106,-65.3296</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Digby County</areaDesc>
+            <polygon>44.1327,-65.8891 44.0644,-66.0177 44.0035,-66.1537 43.9553,-66.2284 44.0011,-66.2281 44.1173,-66.2775 44.2179,-66.2258 44.2275,-66.2741 44.1793,-66.3689 44.2126,-66.4575 44.2682,-66.4543 44.5327,-66.1494 44.6249,-66.0162 44.7361,-65.8088 44.6859,-65.7604 44.3106,-65.3296 44.2277,-65.3923 44.1686,-65.6225 44.1327,-65.8891</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1203</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205002</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Yarmouth County</areaDesc>
+            <polygon>43.5438,-65.8584 43.5854,-65.8714 43.6632,-65.8807 43.5876,-65.9854 43.6049,-66.1101 43.7979,-66.2295 43.9553,-66.2284 44.0035,-66.1537 44.0753,-66.0272 44.1327,-65.8891 44.193,-65.6271 44.2277,-65.3923 43.9156,-65.5705 43.7465,-65.6514 43.6446,-65.6121 43.619,-65.6854 43.5438,-65.8584</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011700</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1202</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>météo</event>
+        <responseType>Monitor</responseType>
+        <urgency>Future</urgency>
+        <severity>Minor</severity>
+        <certainty>Possible</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>weather</value>
+        </eventCode>
+        <effective>2026-11-06T02:26:06-00:00</effective>
+        <onset>2026-11-06T15:00:00-00:00</onset>
+        <expires>2026-11-06T18:26:06-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>bulletin météorologique spécial en vigueur</headline>
+        <description>
+Un long épisode de pluie forte est possible.
+
+Régions : certaines parties du sud-ouest de la Nouvelle-Écosse.
+
+Quantité de pluie possible : de 40 à 80 mm.
+
+Période : de vendredi après-midi jusque dans la nuit de dimanche à lundi.
+
+Remarques : un système météorologique qui se déplace lentement devrait occasionner un long épisode de pluie qui pourrait devenir forte par moments. Des orages pourraient se former sur certaines régions et occasionner de la pluie plus forte par endroits. Il y a un peu d'incertitude quant aux endroits qui recevront le plus de pluie, mais certaines régions risquent d'en recevoir beaucoup.
+
+###
+
+Veuillez continuer à surveiller les alertes et les prévisions émises par Environnement Canada. Pour signaler du temps violent, envoyez un courriel à meteoNS@ec.gc.ca ou publiez un message sur les réseaux sociaux en utilisant #NSMeteo.
+</description>
+        <instruction/>
+        <web>https://meteo.gc.ca/</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>statement</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20261106022142189/WS_11_71_CWHX/SPS/1807007051752233258202611050506_WS_11_71_CWHX/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:24525 M:125682 C:144980</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>bulletin météorologique spécial</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Nouvelle-Écosse</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WS_11_71_CWHX</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Event_End_Time</valueName>
+            <value>2026-11-09T00:00:00.000Z</value>
+        </parameter>
+        <area>
+            <areaDesc>comté de Kings</areaDesc>
+            <polygon>44.9011,-64.434 44.8377,-64.5243 44.838,-64.5248 44.8422,-64.5316 44.6652,-64.7714 44.8696,-64.9165 45.1153,-65.0526 45.1158,-65.0516 45.1166,-65.0498 45.1335,-65.0356 45.3454,-64.5186 45.3291,-64.3226 45.2662,-64.2264 45.1355,-64.2458 45.077,-64.1737 45.0369,-64.2321 44.9011,-64.434</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011100</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1207</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté d'Annapolis</areaDesc>
+            <polygon>44.3106,-65.3296 44.6859,-65.7604 44.7361,-65.8088 44.7398,-65.8017 45.1153,-65.0526 45.1158,-65.0516 44.8889,-64.8921 44.6652,-64.7714 44.5351,-64.9461 44.4392,-65.0709 44.4419,-65.1586 44.4111,-65.1798 44.3106,-65.3296</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011200</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Digby</areaDesc>
+            <polygon>44.1327,-65.8891 44.0644,-66.0177 44.0035,-66.1537 43.9553,-66.2284 44.0011,-66.2281 44.1173,-66.2775 44.2179,-66.2258 44.2275,-66.2741 44.1793,-66.3689 44.2126,-66.4575 44.2682,-66.4543 44.5327,-66.1494 44.6249,-66.0162 44.7361,-65.8088 44.6859,-65.7604 44.3106,-65.3296 44.2277,-65.3923 44.1686,-65.6225 44.1327,-65.8891</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011300</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1203</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1205002</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>comté de Yarmouth</areaDesc>
+            <polygon>43.5438,-65.8584 43.5854,-65.8714 43.6632,-65.8807 43.5876,-65.9854 43.6049,-66.1101 43.7979,-66.2295 43.9553,-66.2284 44.0035,-66.1537 44.0753,-66.0272 44.1327,-65.8891 44.193,-65.6271 44.2277,-65.3923 43.9156,-65.5705 43.7465,-65.6514 43.6446,-65.6121 43.619,-65.6854 43.5438,-65.8584</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>011700</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>1202</value>
+            </geocode>
+        </area>
+    </info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>J/yA7Petw8rYl2ARPfCBE//nCexH0BU9ltRaKldzMeg=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>XWrKZGinZzagm5GGq7/MWSJD55z1DwO9Q8sNGsURvXOOgOweQKwOOHXyOR3KEiv9
+fko75FgbMVk0PNOJAqxTfPKRQUkI+0OOtwsulVhugFbH3Jv0I1ukbPGM8cXttvPe
+2lPmtaLuhmL2JxA+MKYlSRMJbvzjJRtLggUUf0k54pvIqKzZDBlT8s4hrRTYtvN7
+r3V+ugScq92ib4pnI6jfei/yGeGlwLSAvBDbIZ7B9afMoUJebo6bT6rQI2KtVlNK
+66WjGMUZ73H06PWnlwNQUO2TkPOyAVXQ6qm7qSnliEubLaE7IM2pE5ZA9f2lhAbY
+skorohJIql/pxoCOAmPotA==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHDDCCBfSgAwIBAgIQM2dJyev0XEPJoQlSaOQgYDANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+NDA0MTkwOTQ3MDZaFw0yNTA1MTkwOTQ3MDRaMGwxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MR8wHQYDVQQKExZTaGFyZWQg
+U2VydmljZXMgQ2FuYWRhMRgwFgYDVQQDDA8qLndlYXRoZXIuZ2MuY2EwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDARd6fBVAjKlOvocp442ydQbSCoxHW
+91i1r5TkucsGLkzm92HQsj4eVNCl6Uti3hd3yYL1QxFTImdyUs2ETlDoU/hVFEey
+IevKo3m3ufuv9YryXGtoRcthMITEPrIy6vOyNbGaxJw1J6/AkOs7oAm3kUlx6PS8
+vOnuoyik1r6Q9qx1XP9Z05cIyyIBhsyjdS124Jj01quCjz5COPMXKU1LlaU8LeSA
+qILe9DyC3XWluZGxZH+tGiw42mpiCD3JGlCsXQujU5y4jg2fq8/ePsM3OUzM/Dxs
+kGMMN7LAG9/H4CINJ+aXZQvlgTfIZp2eWLvHy5dnsbi3VAJOEtgRVzedAgMBAAGj
+ggNZMIIDVTAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSSLKB4osVSIvgfhk+6NayJ
+BDAXuDAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzBoBggrBgEFBQcB
+AQRcMFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3QubmV0MDMGCCsG
+AQUFBzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxay1jaGFpbjI1Ni5jZXIw
+MwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFr
+LmNybDCBnQYDVR0RBIGVMIGSgg8qLndlYXRoZXIuZ2MuY2GCDXdlYXRoZXIuZ2Mu
+Y2GCC21ldGVvLmdjLmNhgg0qLm1ldGVvLmdjLmNhghUqLmFscGhhLndlYXRoZXIu
+Z2MuY2GCEyouYWxwaGEubWV0ZW8uZ2MuY2GCFCouYmV0YS53ZWF0aGVyLmdjLmNh
+ghIqLmJldGEubWV0ZW8uZ2MuY2EwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjATBgNVHSAEDDAKMAgGBmeBDAECAjCCAYAGCisG
+AQQB1nkCBAIEggFwBIIBbAFqAHYAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzE
+uVCkR+cAAAGO9cCizQAABAMARzBFAiEA7hlkvyyYsnhbas5WDwoTkdGWf92Ukckw
+rGyUqMPZQjkCID8oQlHWS11haifx+i9tBr0epmrzkh2/bbneb9WNrlUvAHcATnWj
+J1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8AAAGO9cCi2AAABAMASDBGAiEA
+iE1jLaXrlPxrkIiq7NU0gH/sDiUlHCmMrT79KUy2V+YCIQCb2GrTID6NO3hb8bGs
+ctd8ipYRuu1FnDY8X3MGVDcWnAB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocy
+Hf0eN45QAAABjvXAovkAAAQDAEgwRgIhALRWB9aVOe3Zi9j6MEVKJl1NKQKIycr3
+8IfKeHxckblpAiEA85xjN3iBFvEVT4yIxO4qKRelbpFGomgSrYnfwTSUwHIwDQYJ
+KoZIhvcNAQELBQADggEBADGEK5tU92TqoTWPh1lfSRTDVCpk5qhqmIuaTeYQMonV
+AgHF5rktrUhXmMzRJEef8XRwLvApT4zOn+TV+NOUpi8q6tDWxx7dE8+moIf6tXq8
+d4OQ+VDO/C6nz/xA8FqvxAbPfqCJ6DqgitSyXhF01XkNMfVcknGAzhc/HemuukI1
+3DTuaATlbaXkHjSp+O0mXCykCIgH/9eMuOoFMzhdQhtJiLf2MMVclJ72/YzgVveA
+XrSTVE5F4BYdp9hX+0BTg5zNgg1wwvVVOwuIOTFqSSJCzGHjl/1i8IyyPLKB3ilt
+B+0V7IdmIxlvPbL//qNkzyUVufkewAoLMqCOUIZA0eY=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>

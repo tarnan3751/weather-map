@@ -1,0 +1,11 @@
+target
+**/target
+**/node_modules
+web/dist
+web/public/wasm
+data
+fixtures
+tools
+.git
+.env
+*.pmtiles

@@ -1,0 +1,24 @@
+[package]
+name = "wx-formats"
+description = "Decoders for non-GRIB products: ODIM HDF5 radar, NetCDF-4 satellite, GeoTIFF, palette PNG tiles, JSON grids. Pure computation, no I/O."
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+wx-core = { workspace = true }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+# Pure Rust and read-only: superblocks 0 to 3, every chunk index, deflate and
+# shuffle, bounded allocation on hostile input. No C library, no build script.
+# LZ4 stays off: no product here uses it.
+hdf5-reader = { version = "0.12.1", default-features = false, features = ["rayon"] }
+# GeoTIFF strips and tiles with LZW or Deflate. JPEG and fax codecs stay off.
+tiff = { version = "0.11.3", default-features = false, features = ["deflate", "lzw"] }
+png = "0.18.1"
+# Uncompressed tar of ODIM files (DWD nowcasts). xattr support is not needed
+# to read an archive from memory.
+tar = { version = "0.4.46", default-features = false }

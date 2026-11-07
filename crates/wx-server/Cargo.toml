@@ -1,0 +1,40 @@
+[package]
+name = "wx-server"
+description = "The weather map server: API, tiles, live updates, and every feed"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+wx-core = { workspace = true }
+wx-tile = { workspace = true }
+wx-pipeline = { workspace = true }
+wx-ingest = { workspace = true }
+wx-alerts = { workspace = true }
+wx-obs = { workspace = true }
+anyhow = { workspace = true }
+axum = { workspace = true }
+bytes = { workspace = true }
+chrono = { workspace = true }
+dotenvy = "0.15"
+flate2 = { workspace = true }
+futures = { workspace = true }
+moka = { version = "0.12", features = ["future"] }
+object_store = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sqlx = { workspace = true }
+tokio = { workspace = true }
+tokio-util = { workspace = true }
+tower-http = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+url = { workspace = true }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }
+# The load tool (examples/load.rs) and the WebSocket fan-out measurement.
+reqwest = { workspace = true }
+tokio-tungstenite = "0.29"
+tower = { version = "0.5", features = ["util"] }
+http-body-util = "0.1"

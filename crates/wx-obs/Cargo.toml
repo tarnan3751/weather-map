@@ -1,0 +1,28 @@
+[package]
+name = "wx-obs"
+description = "Airport station observations and NWS point forecasts"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+wx-core = { workspace = true }
+anyhow = { workspace = true }
+axum = { workspace = true }
+chrono = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+tokio-util = { workspace = true }
+tracing = { workspace = true }
+bytes = { workspace = true }
+flate2 = { workspace = true }
+csv = "1.3"
+moka = { version = "0.12", features = ["future"] }
+futures = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+tower = { version = "0.5", features = ["util"] }
+tower-http = { workspace = true }

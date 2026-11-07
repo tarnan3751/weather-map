@@ -1,0 +1,12 @@
+1:0:d=2026110618:LCDC:0 m above ground:3 hour fcst:ENS=hi-res ctl
+2:60919:d=2026110618:FRACCC:0 m above ground:3 hour fcst:ENS=hi-res ctl
+3:121838:d=2026110618:TMP:2 m above ground:3 hour fcst:ENS=hi-res ctl
+4:182757:d=2026110618:DPT:2 m above ground:3 hour fcst:ENS=hi-res ctl
+5:273676:d=2026110618:UGRD:10 m above ground:3 hour fcst:ENS=hi-res ctl
+6:334595:d=2026110618:VGRD:10 m above ground:3 hour fcst:ENS=hi-res ctl
+7:395514:d=2026110618:WIND:10 m above ground:3 hour fcst:ENS=hi-res ctl
+8:456433:d=2026110618:WDIR:10 m above ground:3 hour fcst:ENS=hi-res ctl
+9:547352:d=2026110618:TPRATE:surface:0-3 hour acc fcst:ENS=hi-res ctl
+10:638295:d=2026110618:TSPRATE:surface:0-3 hour acc fcst:ENS=hi-res ctl
+11:729238:d=2026110618:GUST:10 m above ground:2-3 hour max fcst:ENS=hi-res ctl
+12:820181:d=2026110618:var discipline=0 center=94 local_table=1 parmcat=6 parm=199:0 m above ground:3 hour fcst:ENS=hi-res ctl

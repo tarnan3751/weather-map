@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- This is a Common Alerting Protocol (CAP) message issued by Germany's National Meteorological Service, Deutscher Wetterdienst (DWD). Visit https://www.dwd.de -->
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.0.276.0.DWD.PVW.1793966220000.96e8b2b5-104d-4f5b-a091-05af9e91e82f.ENG</identifier>
+  <sender>opendata@dwd.de</sender>
+  <sent>2026-11-06T12:57:00+01:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <source>PVW</source>
+  <scope>Public</scope>
+  <code>id:2.49.0.0.276.0.DWD.PVW.1793966220000.96e8b2b5-104d-4f5b-a091-05af9e91e82f</code>
+  <info>
+    <language>en</language>
+    <category>Met</category>
+    <event>frost</event>
+    <responseType>Prepare</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>PROFILE_VERSION</valueName>
+      <value>2.1.14</value>
+    </eventCode>
+    <eventCode>
+      <valueName>LICENSE</valueName>
+      <value>© GeoBasis-DE / BKG 2021 (Daten modifiziert)</value>
+    </eventCode>
+    <eventCode>
+      <valueName>II</valueName>
+      <value>22</value>
+    </eventCode>
+    <eventCode>
+      <valueName>GROUP</valueName>
+      <value>FROST</value>
+    </eventCode>
+    <eventCode>
+      <valueName>AREA_COLOR</valueName>
+      <value>255 235 59</value>
+    </eventCode>
+    <effective>2026-11-06T12:57:00+01:00</effective>
+    <onset>2026-11-06T22:00:00+01:00</onset>
+    <expires>2026-11-07T06:00:00+01:00</expires>
+    <senderName>Deutscher Wetterdienst</senderName>
+    <headline>Official WARNING of FROST</headline>
+    <description>There is a risk of frost (level 1 of 2).
+Minimum temperature: &gt; -2 °C</description>
+    <instruction>Hazard(s) to expect: possible frost damage. 
+Recommendations for what to do: 
+If necessary, take precautions against frost.</instruction>
+    <web>https://dwd.de/warnungen</web>
+    <contact>Deutscher Wetterdienst</contact>
+    <parameter>
+      <valueName>minimum temperature</valueName>
+      <value>&gt;-2 [°C]</value>
+    </parameter>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>50.063005,8.988566 50.067772,8.99165 50.069517,8.998892 50.097447,9.003205 50.11239,9.028256 50.113871,9.036808 50.117782,9.071797 50.117793,9.092831 50.126078,9.09845 50.126667,9.11726 50.113805,9.144911 50.117298,9.154943 50.095572,9.144441 50.091147,9.149747 50.097866,9.162175 50.118097,9.172498 50.12897,9.191399 50.138686,9.183331 50.143402,9.205127 50.14655,9.213317 50.146173,9.235899 50.139124,9.260379 50.140637,9.273358 50.14183,9.283596 50.133234,9.307336 50.139181,9.321189 50.139544,9.331945 50.131448,9.341034 50.129071,9.376087 50.088433,9.404647 50.085237,9.422054 50.090924,9.462196 50.097147,9.514002 50.105631,9.520441 50.099319,9.550214 50.101808,9.556333 50.108512,9.570694 50.106538,9.58366 50.123582,9.653467 50.124271,9.67184 50.11655,9.681799 50.157106,9.694905 50.172304,9.713805 50.16851,9.722627 50.17344,9.732467 50.174466,9.757937 50.189849,9.74923 50.189577,9.733918 50.203745,9.718845 50.206107,9.740247 50.196813,9.745159 50.19552,9.774551 50.202172,9.779165 50.228004,9.786061 50.237992,9.803749 50.238339,9.827478 50.229922,9.8364 50.252114,9.874142 50.246246,9.89151 50.262718,9.890961 50.266835,9.89714 50.269897,9.887358 50.292465,9.874298 50.298372,9.865304 50.305566,9.867578 50.313136,9.904838 50.317969,9.918995 50.334299,9.927808 50.339576,9.933606 50.350338,9.928459 50.363052,9.953345 50.355609,9.976463 50.364622,9.990988 50.371834,10.024412 50.389062,10.053954 50.376038,10.057065 50.377295,10.0838 50.38954,10.089508 50.398494,10.107983 50.392907,10.129588 50.402697,10.132823 50.407984,10.154451 50.427436,10.15984 50.430126,10.191341 50.438618,10.187605 50.422206,10.22836 50.42071,10.212675 50.413245,10.209398 50.397123,10.220928 50.399488,10.235722 50.389899,10.236691 50.372851,10.310427 50.371284,10.316071 50.36278,10.274764 50.336,10.286814 50.332226,10.289656 50.34798,10.332625 50.345482,10.366834 50.352707,10.378891 50.349965,10.400174 50.343366,10.402093 50.341746,10.414147 50.335925,10.406502 50.326289,10.413617 50.317221,10.45301 50.306429,10.424997 50.289276,10.422183 50.286453,10.413186 50.268873,10.424781 50.254814,10.451444 50.247201,10.4488 50.247606,10.43227 50.237385,10.4307 50.23018,10.441161 50.239726,10.453704 50.234499,10.468203 50.249757,10.46204 50.245502,10.486797 50.240068,10.484834 50.233376,10.50072 50.242095,10.513697 50.236508,10.523874 50.221766,10.550205 50.206042,10.561011 50.207566,10.584482 50.218188,10.590558 50.217097,10.603499 50.200068,10.608872 50.2002,10.640243 50.212863,10.643415 50.223782,10.658587 50.225405,10.685829 50.212441,10.695929 50.204233,10.717217 50.211836,10.730726 50.230176,10.729189 50.252692,10.729221 50.248618,10.748179 50.243781,10.746162 50.241587,10.769846 50.251047,10.783259 50.251578,10.800761 50.240052,10.807422 50.237827,10.827903 50.217185,10.841493 50.210936,10.835757 50.213652,10.866844 50.209874,10.869244 50.211992,10.8812 50.205903,10.893992 50.200847,10.914234 50.19867,10.921405 50.213425,10.943312 50.22682,10.945573 50.217586,10.975744 50.211322,10.984865 50.215185,11.002909 50.218269,11.033147 50.211931,11.049074 50.204351,11.088028 50.210404,11.102475 50.205238,11.118486 50.194496,11.1075 50.191425,11.116458 50.19817,11.152767 50.188944,11.159633 50.186261,11.172192 50.180114,11.178706 50.174748,11.191712 50.167791,11.181176 50.162532,11.18524 50.160786,11.212855 50.151567,11.201769 50.145263,11.208925 50.141713,11.231174 50.117078,11.286199 50.122262,11.292955 50.11763,11.311895 50.103978,11.300067 50.092621,11.317895 50.085551,11.317264 50.102637,11.275657 50.097875,11.256248 50.109724,11.241723 50.092587,11.198129 50.093893,11.184224 50.092931,11.164266 50.0825,11.144305 50.076331,11.15001 50.078693,11.183221 50.057984,11.181034 50.052061,11.156887 50.046378,11.159421 50.043603,11.149211 50.048568,11.123653 50.036029,11.091868 50.035753,11.06181 50.024726,11.046038 50.028753,11.021866 50.01601,11.005663 50.023125,10.98217 50.030028,10.994239 50.036453,10.989766 50.0408,10.959229 50.048363,10.955628 50.045882,10.934017 50.036017,10.930519 50.023425,10.927025 50.019796,10.909047 50.007907,10.919728 49.993833,10.914993 49.984164,10.887747 49.988049,10.87358 49.973633,10.864823 49.968773,10.845655 49.974738,10.833548 49.964999,10.814573 49.958338,10.783046 49.968449,10.760927 49.962175,10.754617 49.962805,10.729069 49.95514,10.723039 49.947079,10.741778 49.939125,10.737402 49.932338,10.71653 49.923984,10.713528 49.925076,10.707564 49.911925,10.690872 49.903842,10.703645 49.895406,10.686383 49.890174,10.694126 49.886235,10.688057 49.882699,10.682609 49.890934,10.662782 49.874211,10.632975 49.862732,10.626488 49.855444,10.598854 49.874689,10.606526 49.870897,10.59133 49.859439,10.586055 49.862389,10.574376 49.872872,10.575288 49.865087,10.56049 49.881606,10.55688 49.876431,10.544745 49.866796,10.530704 49.856576,10.533976 49.848314,10.51934 49.840015,10.523355 49.84221,10.506499 49.838441,10.49905 49.819692,10.498635 49.809586,10.524588 49.8028,10.516458 49.787416,10.492538 49.786558,10.469694 49.791703,10.46648 49.803699,10.483931 49.81273,10.475544 49.808561,10.461867 49.822959,10.447629 49.820735,10.443154 49.806446,10.439724 49.796099,10.422545 49.775759,10.428767 49.754408,10.422196 49.748784,10.434334 49.722826,10.377203 49.711539,10.369819 49.726742,10.352207 49.725066,10.342517 49.73492,10.336599 49.733651,10.329871 49.72795,10.307256 49.717803,10.308426 49.722742,10.284252 49.716611,10.2816 49.720678,10.258172 49.716214,10.239246 49.695278,10.238707 49.695796,10.214264 49.677346,10.193695 49.679452,10.181449 49.686314,10.170121 49.691111,10.151198 49.683898,10.143838 49.672401,10.147911 49.668342,10.134174 49.668627,10.109279 49.661656,10.101164 49.648741,10.082908 49.633127,10.084125 49.621437,10.108143 49.601522,10.082446 49.59316,10.070578 49.597115,10.051645 49.6055,10.029689 49.614982,10.04892 49.636625,10.04837 49.636685,10.037276 49.646007,10.030408 49.640308,10.017183 49.662973,10.007214 49.662948,9.986621 49.647518,9.978948 49.640085,9.961228 49.627262,9.962453 49.625649,9.954272 49.601716,9.965093 49.595281,9.944532 49.617954,9.924659 49.620756,9.89945 49.6296,9.891098 49.625544,9.865485 49.643377,9.854305 49.649191,9.831557 49.661364,9.827507 49.672936,9.824335 49.681221,9.836206 49.685851,9.83543 49.707715,9.823214 49.719962,9.797566 49.729229,9.796207 49.710184,9.752842 49.695472,9.749841 49.687167,9.728443 49.72678,9.711112 49.716466,9.677744 49.693389,9.675313 49.687412,9.652937 49.693728,9.632686 49.70247,9.627777 49.717122,9.633278 49.722915,9.641079 49.731154,9.627772 49.738401,9.643256 49.751153,9.640445 49.766238,9.650785 49.79211,9.650444 49.78349,9.620643 49.778723,9.560249 49.762705,9.55876 49.749042,9.569041 49.744304,9.560748 49.766645,9.544721 49.760316,9.523126 49.763278,9.513995 49.785896,9.507579 49.786451,9.480885 49.769479,9.461633 49.772483,9.445869 49.787195,9.433536 49.788122,9.42116 49.777198,9.406093 49.770277,9.38663 49.773173,9.38018 49.77814,9.37381 49.771494,9.361243 49.76805,9.317385 49.741376,9.322171 49.740446,9.295259 49.731177,9.323478 49.731394,9.354934 49.728366,9.373572 49.717706,9.35022 49.703985,9.357625 49.707364,9.382203 49.730774,9.386951 49.72182,9.40813 49.706808,9.420808 49.690805,9.420185 49.679423,9.407007 49.674619,9.410819 49.669068,9.397857 49.660645,9.417304 49.645061,9.40602 49.643161,9.38287 49.65873,9.367758 49.644055,9.341074 49.654934,9.307142 49.638628,9.28722 49.631755,9.268578 49.614869,9.284647 49.606793,9.264237 49.593014,9.258891 49.593513,9.25123 49.584588,9.249547 49.581274,9.2383 49.578706,9.226358 49.573879,9.194456 49.577536,9.102948 49.599766,9.084565 49.602247,9.067172 49.618444,9.066079 49.642059,9.102127 49.660364,9.103144 49.669108,9.089236 49.694307,9.089994 49.697147,9.106884 49.704201,9.132163 49.714545,9.121039 49.714776,9.131968 49.724466,9.135632 49.730117,9.141675 49.742833,9.149287 49.755583,9.128174 49.758798,9.106313 49.774101,9.114174 49.782688,9.134435 49.79552,9.130787 49.798085,9.107901 49.789898,9.09413 49.798703,9.08731 49.817811,9.076797 49.8263,9.087128 49.834292,9.078599 49.840307,9.088994 49.846959,9.084872 49.831909,9.066568 49.839144,9.05444 49.8478,9.057989 49.839972,9.041767 49.845937,9.036839 49.854858,9.042716 49.862259,9.033875 49.866106,9.049735 49.878071,9.03752 49.909434,9.03144 49.909911,9.023789 49.924827,9.031856 49.950107,9.022116 49.95545,9.026961 49.989431,9.013901 49.996297,9.024267 49.989753,9.040525 49.993179,9.046686 50.002025,9.033736 50.009989,9.040025 50.025361,9.03079 50.037323,9.032615 50.043038,9.023544 50.04395,8.980117 50.055266,8.9823 50.063005,8.988566 50.063005,8.988566</polygon>
+      <geocode>
+        <valueName>EXCLUDE_POLYGON</valueName>
+        <value>50.226017,9.88492 50.227926,9.899146 50.23894,9.880447 50.229313,9.871423 50.223295,9.876177 50.226017,9.88492 50.226017,9.88492 </value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Aschaffenburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809661000</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Gramschatzer Wald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679451</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Guttenberger Wald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Irtenberger Wald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679453</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Bad Staffelstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Bürgerwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678451</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Nonnenkloster</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678454</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Stollbergerforst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678455</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Geiersberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Hundelshausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678453</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Vollburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678456</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Wustvieler Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678457</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Michelau i. OFr.</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478145</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Marktzeuln</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478144</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Itzgrund</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809473138</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Großheirath</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809473132</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Würzburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809663000</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Schweinfurt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809662000</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Lauter</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471152</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Gerach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471133</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Ebrach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Bundorfer Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673451</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Forst Schmalwasser-Süd</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673454</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Untersiemau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809473170</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Burgwallbacher Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Forst Schmalwasser-Nord</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673453</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Seßlach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809473165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Steinacher Forst r.d. Saale</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673456</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Sulzfelder Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673457</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Baunach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471115</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Forst Lohrerstraße</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677454</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Frammersbacher Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677455</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Herrnwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677458</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Langenprozeltener Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677459</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Fürstl. Löwenstein'scher Park</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677456</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Haurain</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677457</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Ruppertshüttener Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677463</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Partensteiner Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677461</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Hohe Wart</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676455</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Forstwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Reckendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471175</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rattelsdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471174</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Ochsenfurt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679170</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Bischbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677120</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Oberpleichfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679169</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Esselbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677126</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kolitzheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678150</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Prosselsheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679174</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Eußenheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677127</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Randersacker</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679175</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Erlenbach b. Marktheidenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677125</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Gemünden a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Reichenberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679176</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Neuensorger Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478453</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Frammersbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677129</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Lülsfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678153</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Remlingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679177</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Breitengüßbacher Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478451</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Hafenlohr</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Altenbuch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Gössenheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677132</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rimpar</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679180</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Gräfendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677133</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Michelau i. Steigerwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678157</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sommerhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679187</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Niederwerrn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678160</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Amorbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676112</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Hasloch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677137</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rottendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679185</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Himmelstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677142</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Dorfprozelten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676118</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Eichenbühl</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676119</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Oberschwarzach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678164</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Bürgstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676116</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Collenberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676117</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Karbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677146</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Röthlein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678170</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Thüngersheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679194</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Erlenbach a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676122</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Eschau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676123</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Poppenhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678168</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Theilheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679193</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Elsenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676121</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schonungen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678174</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Großwallstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676126</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kreuzwertheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677151</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Schwanfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678175</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Karlstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677148</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Uettingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679196</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Faulbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676124</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Karsbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677149</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Großheubach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676125</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Triefenstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677154</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sennfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678178</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Veitshöchheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679202</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Lohr a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677155</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kirchzell</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schwebheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678176</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Leinach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679200</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Hausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Unterpleichfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679201</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Winterhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679206</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Klingenberg a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676134</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sulzheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678183</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Abtswind</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Laudenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Waldbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679204</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kleinheubach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676132</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Marktheidenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677157</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Stadtlauringen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678181</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Waldbüttelbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679205</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kleinwallstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676133</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Üchtelhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678186</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Buchbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Miltenberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676139</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Albertshofen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675112</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Leidersbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676136</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Zell a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679209</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Biebelried</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675113</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Neustadt a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677166</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Waigolshausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678190</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Neunkirchen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676143</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Neuendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677164</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Castell</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675116</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Mömlingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676140</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Neuhütten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Dettelbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675117</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Mönchberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676141</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Partenstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677170</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Wasserlosen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678192</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Niedernberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676144</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Werneck</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678193</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Obernburg a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676145</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Retzstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677175</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Röllbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676151</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rechtenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677172</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wipfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678196</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Roden</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677178</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Großlangheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Rieneck</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677177</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rüdenau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676153</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Schollbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677182</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Stadtprozelten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676158</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Aidhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schneeberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676156</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Rothenfels</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677181</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Geiersnest-Ost</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672455</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Neuwirtshauser Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672462</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Bergtheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679117</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Eisingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679126</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Eibelstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679124</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Waldfensterer Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672468</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Estenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Frickenhausen a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Forst Hain i. Spessart</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671451</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Erlabrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Heinrichsthaler Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671453</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Giebelstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679138</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Sailaufer Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671458</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bergrheinfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678115</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Schöllkrippener Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671459</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Gerbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679136</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Rohrbrunner Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671456</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Geroldshausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679137</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Rothenbucher Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671457</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Güntersleben</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679142</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Hausen b. Würzburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679143</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Waldaschaffer Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671460</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Greußenheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679141</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Wiesener Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671461</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Dingolshausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678122</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Hettstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679146</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Dittelbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678123</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Höchberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679147</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Helmstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679144</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Donnersdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678124</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Holzkirchen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679149</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Frankenwinheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kist</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679154</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kleinrinderfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679155</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Euerbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kirchheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679153</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Gerolzhofen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678134</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Gochsheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Geldersheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678132</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kürnach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679156</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Arnstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Grettstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678138</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Grafenrheinfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809678136</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Margetshöchheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679161</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Birkenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677119</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Eisenheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679167</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Neubrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679164</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Altertheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809679165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Maßbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Alzenau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Münnerstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rödelmaier</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673156</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Theres</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674180</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Karlstein a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sandberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673162</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Oberthulba</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672139</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Schönau a.d. Brend</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673163</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rauhenebrach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674187</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bessenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671112</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Nüdlingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672136</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Saal a.d. Saale</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673160</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Pfarrweisach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674184</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Blankenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671113</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Salz</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673161</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Ramsthal</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672142</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rentweinsdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674190</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Geiselbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671119</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rannungen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672143</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Oerlenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672140</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Großostheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671122</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Strahlungen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673171</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sand a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674195</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Glattbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671120</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Goldbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671121</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Heigenbrücken</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671126</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Heimbuchenthal</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671127</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Unsleben</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673175</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Haibach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671124</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sulzfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673173</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Hösbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sulzthal</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672155</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Heinrichsthal</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Stettfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674201</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kahl a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671134</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kleinkahl</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wollbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673183</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Johannesberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671133</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Thundorf i. UFr.</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672157</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Krombach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671138</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Burglauer</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673186</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Untermerzbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674210</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Laufach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671139</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kleinostheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671136</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wülfershausen a.d. Saale</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673184</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Wartmannsroth</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672161</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Mömbris</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671143</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Mainaschaff</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671140</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Mespelbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671141</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wonfurt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674219</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sailauf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671150</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rothenbuch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671148</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Zeil a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674221</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Stockstadt a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671155</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Schöllkrippen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671152</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sommerkahl</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671153</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Westerngrund</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671159</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Waldaschaff</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671156</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Weibersbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671157</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wiesen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671162</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Dammbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809671160</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Steinfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677186</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sulzbach a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676160</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Breitbrunn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674118</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Lichtenfels</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478139</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kleinlangheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675142</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Thüngen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677189</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Große Kreisstadt Kitzingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675141</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Weilbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Mainstockheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675146</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Bundorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674120</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Mainbernheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675144</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Urspringen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677193</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Burgpreppach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674121</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Wörth a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809676169</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Marktsteft</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675149</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Ebern</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Hochstadt a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478127</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Zellingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677203</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Nordheim a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675155</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wiesthal</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809677200</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Ebelsbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674129</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Prichsenstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675158</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Eltmann</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674133</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Ebensfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478120</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Bad Neustadt a.d. Saale</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rüdenhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675162</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Gädheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674139</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Rödelsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675161</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Segnitz</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675166</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bastheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673116</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schwarzach a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Altenkunstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809478111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sulzfeld a. Main</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675170</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Haßfurt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674147</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Sommerach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675169</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Ebracher Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809471452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Großbardorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673126</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Volkach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675174</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Großeibstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673127</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt in Verwaltungsgemeinschaft Hofheim i. UFr.</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674149</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wiesentheid</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675178</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Riedbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674153</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wiesenbronn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809675177</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Aura a.d. Saale</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Hohenroth</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Oberaurach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674159</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Heustreu</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673133</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Große Kreisstadt Bad Kissingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Knetzgau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674163</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bad Bocklet</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672112</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Kirchlauter</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674160</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Königsberg i. Bay.</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674164</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Burkardroth</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672117</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Euerdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672122</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Niederlauer</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809673146</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Maroldsweisach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809674171</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Elfershausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672121</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Geroda</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672126</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Hammelburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672127</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Fuchsstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809672124</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+  </info>
+</alert>

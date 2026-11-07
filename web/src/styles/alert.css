@@ -1,0 +1,74 @@
+/* The alert detail panel, on top of the alert styles in app.css. Alert text
+   comes from services all over the world: German compounds and URLs with no
+   break opportunities must still wrap inside the panel. */
+
+.alert-text,
+#alert-title,
+#alert-title + .sheet-sub {
+  overflow-wrap: anywhere;
+}
+/* A block of its own, so a right-to-left title or area lines up on the
+   right as the body does. */
+#alert-title > .alert-text,
+.sheet-sub > .alert-text {
+  display: block;
+}
+
+.alert-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 2px 0 10px;
+}
+.alert-lang {
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  background: transparent;
+  color: var(--text-2);
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+.alert-lang:hover {
+  background: var(--raised);
+  color: var(--text);
+}
+.alert-lang[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--text);
+}
+/* Blocks of the message that no longer count: there, but greyed. */
+.alert-lang.past {
+  border-style: dashed;
+  color: var(--text-3);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+.sheet-body .past {
+  opacity: 0.55;
+}
+
+.sheet-body .alert-ended {
+  border-color: color-mix(in srgb, var(--warn) 45%, transparent);
+  background: color-mix(in srgb, var(--warn) 10%, transparent);
+}
+.sheet-body .alert-unshaped {
+  margin-top: 0;
+  color: var(--text-2);
+}
+
+.alert-times dd.alert-text {
+  color: var(--text-2);
+}
+
+.alert-web {
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+/* Text in a flex row needs to be allowed to shrink before it can wrap. */
+.alert-row .alert-text {
+  min-width: 0;
+}

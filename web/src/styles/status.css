@@ -1,0 +1,186 @@
+@import './tokens.css';
+
+body.status-page {
+  min-height: 100vh;
+  padding: calc(24px + var(--safe-top)) calc(16px + var(--safe-right)) calc(32px + var(--safe-bottom)) calc(16px + var(--safe-left));
+}
+#status {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.status-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.status-title h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 680;
+  letter-spacing: -0.015em;
+}
+.back {
+  font-size: 14px;
+  text-decoration: none;
+}
+.status-meta {
+  margin: 6px 0 18px;
+  color: var(--text-2);
+  font-size: 13.5px;
+}
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-3);
+}
+.live.ok .dot,
+.chip.ok .dot {
+  background: var(--ok);
+}
+.live.warn .dot,
+.chip.warn .dot {
+  background: var(--warn);
+}
+.chip.bad .dot {
+  background: var(--bad);
+}
+.chip.info .dot {
+  background: var(--info);
+}
+.summary {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--raised);
+  font-weight: 600;
+}
+.summary.ok {
+  border-color: rgba(79, 209, 139, 0.35);
+}
+.summary.warn {
+  border-color: rgba(242, 184, 75, 0.5);
+}
+.banner {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(255, 107, 94, 0.12);
+  border: 1px solid rgba(255, 107, 94, 0.45);
+}
+.feeds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+.feed {
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.feed.backing_off {
+  border-color: rgba(255, 107, 94, 0.45);
+}
+.feed header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.feed h2 {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+}
+.feed-info {
+  margin: 2px 0 10px;
+  color: var(--text-2);
+  font-size: 13px;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  font-size: 12.5px;
+  font-weight: 600;
+}
+.chip.bad {
+  border-color: rgba(255, 107, 94, 0.6);
+  color: #ffb3ab;
+}
+.chip.warn {
+  border-color: rgba(242, 184, 75, 0.6);
+  color: #ffd98f;
+}
+.feed dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 14px;
+  margin: 0;
+  font-size: 14px;
+}
+.feed dt {
+  color: var(--text-3);
+}
+.feed dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.feed-detail {
+  margin: 10px 0 0;
+  color: var(--text-2);
+  font-size: 13px;
+}
+.feed-error {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--raised);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.feed-error.active {
+  background: rgba(255, 107, 94, 0.1);
+}
+.layers {
+  margin-top: 28px;
+}
+.layers h2 {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+.layers table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.layers th,
+.layers td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+.layers thead th {
+  color: var(--text-3);
+  font-weight: 600;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.layers tbody th {
+  font-weight: 600;
+}

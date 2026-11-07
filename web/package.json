@@ -1,0 +1,41 @@
+{
+  "name": "weather-map-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:mock": "VITE_MOCK=1 vite",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "build:wasm": "node scripts/build-wasm.mjs",
+    "preview": "vite preview",
+    "preview:mock": "VITE_MOCK=1 vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "smoke": "node scripts/smoke.mjs",
+    "icons": "node scripts/icons.mjs"
+  },
+  "dependencies": {
+    "@protomaps/basemaps": "^5.7.2",
+    "fflate": "^0.8.3",
+    "maplibre-gl": "^6.16.0",
+    "pmtiles": "^4.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "us-atlas": "^3.0.1",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@maplibre/maplibre-gl-style-spec": "^26.5.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/ws": "^8.18.2",
+    "@vitejs/plugin-react": "^6.2.1",
+    "playwright": "^1.65.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0",
+    "ws": "^8.22.1"
+  }
+}

@@ -1,0 +1,47 @@
+[package]
+name = "wx-ingest"
+description = "Ingest: notice new data at its source, fetch what the catalog wants, build parts, store them, announce them"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+# One feature per group of families. Each family's adapter is a separate
+# module, compiled only when its feature is on, so a family can be left out
+# of a build (and worked on) without touching the others.
+[features]
+default = ["nbm", "cptec", "eccc", "icon", "dmi", "arome", "radar", "satellite"]
+nbm = []
+cptec = []
+eccc = []
+icon = []
+dmi = []
+arome = []
+radar = ["dep:wx-formats", "dep:serde_json"]
+satellite = ["dep:wx-formats"]
+
+[dependencies]
+wx-core = { workspace = true }
+wx-pipeline = { workspace = true }
+wx-formats = { workspace = true, optional = true }
+anyhow = { workspace = true }
+async-trait = "0.1"
+bytes = { workspace = true }
+# Pure Rust backend (libbz2-rs-sys) by default: no C library is linked.
+bzip2 = "0.6"
+chrono = { workspace = true }
+flate2 = { workspace = true }
+futures = { workspace = true }
+object_store = { workspace = true }
+percent-encoding = "2"
+reqwest = { workspace = true }
+# The radar APIs answer in JSON (DPC's links, JMA's time lists).
+serde_json = { workspace = true, optional = true }
+tokio = { workspace = true }
+tokio-util = { workspace = true }
+tracing = { workspace = true }
+url = { workspace = true }
+
+[dev-dependencies]
+wx-tile = { workspace = true }
+tokio = { workspace = true, features = ["test-util"] }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

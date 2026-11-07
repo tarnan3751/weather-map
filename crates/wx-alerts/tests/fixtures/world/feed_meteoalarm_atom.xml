@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
+  <link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+  <link type="application/atom+xml" rel="self" href="https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-croatia"/>
+  <link type="text/html" rel="alternate" href="https://meteoalarm.org"/>
+  <rights>Copyright © 2026 MeteoAlarm.Org. Licensed under terms equivalent to CC BY 4.0, with additional requirements for redistributing outlined in our Terms and Conditions.</rights>
+  <generator>MeteoAlarm Producer Server</generator>
+  <logo>https://feeds.meteoalarm.org/images/logo.svg</logo>
+  <author>
+    <name>meteoalarm.org</name>
+    <uri>https://meteoalarm.org</uri>
+    <email>meteoalarm@geosphere.at</email>
+  </author>
+  <id>tag:meteoalarm.org,2021-02-19:HR</id>
+  <title>MeteoAlarm - Alerting Europe for Extreme Weather</title>
+  <updated>2026-11-06T18:18:07.337133Z</updated>
+  <entry>
+    <cap:geocode>
+      <valueName>NUTS3</valueName>
+      <value>HR033</value>
+    </cap:geocode>
+    <link title="Zadarska" href="https://meteoalarm.org?geocode=EMMA_ID:HR023" hreflang="en"/>
+    <cap:areaDesc>Zadarska</cap:areaDesc>
+    <cap:event>Yellow wind warning</cap:event>
+    <cap:sent>2026-11-06T18:12:31+00:00</cap:sent>
+    <cap:expires>2026-11-07T22:59:59+00:00</cap:expires>
+    <cap:effective>2026-11-06T18:12:31+00:00</cap:effective>
+    <cap:onset>2026-11-06T23:00:00+00:00</cap:onset>
+    <cap:certainty>Likely</cap:certainty>
+    <cap:severity>Moderate</cap:severity>
+    <cap:urgency>Future</cap:urgency>
+    <cap:scope>Public</cap:scope>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:status>Actual</cap:status>
+    <cap:identifier>2.49.0.0.191.0.HR.261106191231_0_002_yellow_HR023</cap:identifier>
+    <link type="application/cap+xml" href="https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/e8f63a65-a683-4163-80fc-ec71bdef1966"/>
+    <link title="Croatia" rel="related" href="https://meteoalarm.org?region=HR" hreflang="en"/>
+    <author>
+      <name>meteoalarm.org</name>
+      <uri>https://meteoalarm.org</uri>
+    </author>
+    <published>2026-11-06T18:12:31Z</published>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/e8f63a65-a683-4163-80fc-ec71bdef1966?index_info=1&amp;index_area=0&amp;index_geocode=1</id>
+    <title>Yellow Wind Warning issued for Croatia - Zadarska</title>
+    <updated>2026-11-06T18:12:31Z</updated>
+  </entry>
+<entry>
+    <cap:geocode>
+      <valueName>EMMA_ID</valueName>
+      <value>HR023</value>
+    </cap:geocode>
+    <link title="Zadarska" href="https://meteoalarm.org?geocode=EMMA_ID:HR023" hreflang="en"/>
+    <cap:areaDesc>Zadarska</cap:areaDesc>
+    <cap:event>Yellow wind warning</cap:event>
+    <cap:sent>2026-11-06T18:12:31+00:00</cap:sent>
+    <cap:expires>2026-11-07T22:59:59+00:00</cap:expires>
+    <cap:effective>2026-11-06T18:12:31+00:00</cap:effective>
+    <cap:onset>2026-11-06T23:00:00+00:00</cap:onset>
+    <cap:certainty>Likely</cap:certainty>
+    <cap:severity>Moderate</cap:severity>
+    <cap:urgency>Future</cap:urgency>
+    <cap:scope>Public</cap:scope>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:status>Actual</cap:status>
+    <cap:identifier>2.49.0.0.191.0.HR.261106191231_0_002_yellow_HR023</cap:identifier>
+    <link type="application/cap+xml" href="https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/e8f63a65-a683-4163-80fc-ec71bdef1966"/>
+    <link title="Croatia" rel="related" href="https://meteoalarm.org?region=HR" hreflang="en"/>
+    <author>
+      <name>meteoalarm.org</name>
+      <uri>https://meteoalarm.org</uri>
+    </author>
+    <published>2026-11-06T18:12:31Z</published>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/e8f63a65-a683-4163-80fc-ec71bdef1966?index_info=1&amp;index_area=0&amp;index_geocode=0</id>
+    <title>Yellow Wind Warning issued for Croatia - Zadarska</title>
+    <updated>2026-11-06T18:12:31Z</updated>
+  </entry>
+<entry>
+    <cap:geocode>
+      <valueName>NUTS3</valueName>
+      <value>HR031</value>
+    </cap:geocode>
+    <link title="Primorsko-goranska" href="https://meteoalarm.org?geocode=EMMA_ID:HR018" hreflang="en"/>
+    <cap:areaDesc>Primorsko-goranska</cap:areaDesc>
+    <cap:event>Yellow wind warning</cap:event>
+    <cap:sent>2026-11-06T18:12:31+00:00</cap:sent>
+    <cap:expires>2026-11-07T22:59:59+00:00</cap:expires>
+    <cap:effective>2026-11-06T18:12:31+00:00</cap:effective>
+    <cap:onset>2026-11-06T21:00:00+00:00</cap:onset>
+    <cap:certainty>Likely</cap:certainty>
+    <cap:severity>Moderate</cap:severity>
+    <cap:urgency>Future</cap:urgency>
+    <cap:scope>Public</cap:scope>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:status>Actual</cap:status>
+    <cap:identifier>2.49.0.0.191.0.HR.261106191231_0_000_yellow_HR018</cap:identifier>
+    <link type="application/cap+xml" href="https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/ecd9e4d9-33ff-430f-a562-6959e95be8dc"/>
+    <link title="Croatia" rel="related" href="https://meteoalarm.org?region=HR" hreflang="en"/>
+    <author>
+      <name>meteoalarm.org</name>
+      <uri>https://meteoalarm.org</uri>
+    </author>
+    <published>2026-11-06T18:12:31Z</published>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/ecd9e4d9-33ff-430f-a562-6959e95be8dc?index_info=1&amp;index_area=0&amp;index_geocode=1</id>
+    <title>Yellow Wind Warning issued for Croatia - Primorsko-goranska</title>
+    <updated>2026-11-06T18:12:31Z</updated>
+  </entry>
+<entry>
+    <cap:geocode>
+      <valueName>EMMA_ID</valueName>
+      <value>HR018</value>
+    </cap:geocode>
+    <link title="Primorsko-goranska" href="https://meteoalarm.org?geocode=EMMA_ID:HR018" hreflang="en"/>
+    <cap:areaDesc>Primorsko-goranska</cap:areaDesc>
+    <cap:event>Yellow wind warning</cap:event>
+    <cap:sent>2026-11-06T18:12:31+00:00</cap:sent>
+    <cap:expires>2026-11-07T22:59:59+00:00</cap:expires>
+    <cap:effective>2026-11-06T18:12:31+00:00</cap:effective>
+    <cap:onset>2026-11-06T21:00:00+00:00</cap:onset>
+    <cap:certainty>Likely</cap:certainty>
+    <cap:severity>Moderate</cap:severity>
+    <cap:urgency>Future</cap:urgency>
+    <cap:scope>Public</cap:scope>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:status>Actual</cap:status>
+    <cap:identifier>2.49.0.0.191.0.HR.261106191231_0_000_yellow_HR018</cap:identifier>
+    <link type="application/cap+xml" href="https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/ecd9e4d9-33ff-430f-a562-6959e95be8dc"/>
+    <link title="Croatia" rel="related" href="https://meteoalarm.org?region=HR" hreflang="en"/>
+    <author>
+      <name>meteoalarm.org</name>
+      <uri>https://meteoalarm.org</uri>
+    </author>
+    <published>2026-11-06T18:12:31Z</published>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/ecd9e4d9-33ff-430f-a562-6959e95be8dc?index_info=1&amp;index_area=0&amp;index_geocode=0</id>
+    <title>Yellow Wind Warning issued for Croatia - Primorsko-goranska</title>
+    <updated>2026-11-06T18:12:31Z</updated>
+  </entry>
+<entry>
+    <cap:geocode>
+      <valueName>NUTS3</valueName>
+      <value>HR032</value>
+    </cap:geocode>
+    <link title="Ličko-senjska" href="https://meteoalarm.org?geocode=EMMA_ID:HR019" hreflang="en"/>
+    <cap:areaDesc>Ličko-senjska</cap:areaDesc>
+    <cap:event>Yellow wind warning</cap:event>
+    <cap:sent>2026-11-06T18:12:31+00:00</cap:sent>
+    <cap:expires>2026-11-07T22:59:59+00:00</cap:expires>
+    <cap:effective>2026-11-06T18:12:31+00:00</cap:effective>
+    <cap:onset>2026-11-06T20:00:00+00:00</cap:onset>
+    <cap:certainty>Likely</cap:certainty>
+    <cap:severity>Moderate</cap:severity>
+    <cap:urgency>Future</cap:urgency>
+    <cap:scope>Public</cap:scope>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:status>Actual</cap:status>
+    <cap:identifier>2.49.0.0.191.0.HR.261106191231_0_001_yellow_HR019</cap:identifier>
+    <link type="application/cap+xml" href="https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/b172bc3b-3e04-4e19-85b8-508b7a9b7e57"/>
+    <link title="Croatia" rel="related" href="https://meteoalarm.org?region=HR" hreflang="en"/>
+    <author>
+      <name>meteoalarm.org</name>
+      <uri>https://meteoalarm.org</uri>
+    </author>
+    <published>2026-11-06T18:12:31Z</published>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/b172bc3b-3e04-4e19-85b8-508b7a9b7e57?index_info=1&amp;index_area=0&amp;index_geocode=1</id>
+    <title>Yellow Wind Warning issued for Croatia - Ličko-senjska</title>
+    <updated>2026-11-06T18:12:31Z</updated>
+  </entry>
+<entry>
+    <cap:geocode>
+      <valueName>EMMA_ID</valueName>
+      <value>HR019</value>
+    </cap:geocode>
+    <link title="Ličko-senjska" href="https://meteoalarm.org?geocode=EMMA_ID:HR019" hreflang="en"/>
+    <cap:areaDesc>Ličko-senjska</cap:areaDesc>
+    <cap:event>Yellow wind warning</cap:event>
+    <cap:sent>2026-11-06T18:12:31+00:00</cap:sent>
+    <cap:expires>2026-11-07T22:59:59+00:00</cap:expires>
+    <cap:effective>2026-11-06T18:12:31+00:00</cap:effective>
+    <cap:onset>2026-11-06T20:00:00+00:00</cap:onset>
+    <cap:certainty>Likely</cap:certainty>
+    <cap:severity>Moderate</cap:severity>
+    <cap:urgency>Future</cap:urgency>
+    <cap:scope>Public</cap:scope>
+    <cap:message_type>Alert</cap:message_type>
+    <cap:status>Actual</cap:status>
+    <cap:identifier>2.49.0.0.191.0.HR.261106191231_0_001_yellow_HR019</cap:identifier>
+    <link type="application/cap+xml" href="https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/b172bc3b-3e04-4e19-85b8-508b7a9b7e57"/>
+    <link title="Croatia" rel="related" href="https://meteoalarm.org?region=HR" hreflang="en"/>
+    <author>
+      <name>meteoalarm.org</name>
+      <uri>https://meteoalarm.org</uri>
+    </author>
+    <published>2026-11-06T18:12:31Z</published>
+    <id>https://feeds.meteoalarm.org/api/v1/warnings/feeds-croatia/b172bc3b-3e04-4e19-85b8-508b7a9b7e57?index_info=1&amp;index_area=0&amp;index_geocode=0</id>
+    <title>Yellow Wind Warning issued for Croatia - Ličko-senjska</title>
+    <updated>2026-11-06T18:12:31Z</updated>
+  </entry>
+</feed>
